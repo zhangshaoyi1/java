@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/service
+END
+ArticleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/service/ArticleService.java
+END
+SiteService.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/service/SiteService.java
+END
+LinkService.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/service/LinkService.java
+END
+CategoryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/service/CategoryService.java
+END
+CommentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/service/CommentService.java
+END
+StatsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/service/StatsService.java
+END
+ArticleDataService.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/service/ArticleDataService.java
+END
+GuestbookService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/service/GuestbookService.java
+END
+FileTplService.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/service/FileTplService.java
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/jwc_mis/!svn/ver/16/db
+END
+jwcmis.sql
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/jwc_mis/!svn/ver/16/db/jwcmis.sql
+END
+init-db.bat
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/jwc_mis/!svn/ver/1/db/init-db.bat
+END

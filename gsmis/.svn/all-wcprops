@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/svn/gs_mis/!svn/ver/166/
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/gs_mis/!svn/ver/30/LICENSE.txt
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/gs_mis/!svn/ver/30/.gitignore
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/gs_mis/!svn/ver/30/README.md
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/gs_mis/!svn/ver/30/pom.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/gs_mis/!svn/ver/37/.project
+END
+.gitattributes
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/gs_mis/!svn/ver/30/.gitattributes
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/gs_mis/!svn/ver/30/proguard.cfg
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/gs_mis/!svn/ver/37/.classpath
+END

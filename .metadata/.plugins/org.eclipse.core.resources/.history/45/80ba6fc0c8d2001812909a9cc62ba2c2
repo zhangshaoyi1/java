@@ -1,0 +1,9 @@
+package java_io;
+
+class copytext {
+	/**
+	 * ´¿ÎÄ±¾¿½±´
+	 */
+	public static void copytext(String soursePath,String distrinationPath) {}
+
+}

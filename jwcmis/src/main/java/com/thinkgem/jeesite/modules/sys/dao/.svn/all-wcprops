@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/jwc_mis/!svn/ver/15/src/main/java/com/thinkgem/jeesite/modules/sys/dao
+END
+LogDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/modules/sys/dao/LogDao.java
+END
+DictDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/modules/sys/dao/DictDao.java
+END
+RoleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/modules/sys/dao/RoleDao.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/modules/sys/dao/UserDao.java
+END
+OfficeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/jwc_mis/!svn/ver/17/src/main/java/com/thinkgem/jeesite/modules/sys/dao/OfficeDao.java
+END
+AreaDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/modules/sys/dao/AreaDao.java
+END
+MenuDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/modules/sys/dao/MenuDao.java
+END

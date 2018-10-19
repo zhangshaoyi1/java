@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/service/creator
+END
+ChainedActivitiesCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/service/creator/ChainedActivitiesCreator.java
+END
+MultiInstanceActivityCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/service/creator/MultiInstanceActivityCreator.java
+END
+RuntimeActivityDefinitionEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/service/creator/RuntimeActivityDefinitionEntity.java
+END
+SimpleRuntimeActivityDefinitionEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/service/creator/SimpleRuntimeActivityDefinitionEntity.java
+END
+RuntimeActivityCreatorSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/service/creator/RuntimeActivityCreatorSupport.java
+END
+RuntimeActivityCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/service/creator/RuntimeActivityCreator.java
+END
+RuntimeActivityDefinitionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/service/creator/RuntimeActivityDefinitionManager.java
+END
+RuntimeActivityDefinitionEntityIntepreter.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/service/creator/RuntimeActivityDefinitionEntityIntepreter.java
+END

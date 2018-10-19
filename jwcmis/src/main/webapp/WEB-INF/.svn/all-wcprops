@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/jwc_mis/!svn/ver/15/src/main/webapp/WEB-INF
+END
+decorators.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/WEB-INF/decorators.xml
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/WEB-INF/.gitignore
+END
+ckfinder.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/WEB-INF/ckfinder.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/WEB-INF/web.xml
+END

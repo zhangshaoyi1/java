@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/gs_mis/!svn/ver/30/bin
+END
+clean.bat
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/gs_mis/!svn/ver/30/bin/clean.bat
+END
+versions.bat
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/gs_mis/!svn/ver/30/bin/versions.bat
+END
+run-jetty.bat
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/gs_mis/!svn/ver/30/bin/run-jetty.bat
+END
+run-tomcat6.bat
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/gs_mis/!svn/ver/30/bin/run-tomcat6.bat
+END
+cleanide.bat
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/gs_mis/!svn/ver/30/bin/cleanide.bat
+END
+run-tomcat7.bat
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/gs_mis/!svn/ver/30/bin/run-tomcat7.bat
+END
+package.bat
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/gs_mis/!svn/ver/30/bin/package.bat
+END
+deploy.bat
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/gs_mis/!svn/ver/30/bin/deploy.bat
+END
+eclipse.bat
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/gs_mis/!svn/ver/30/bin/eclipse.bat
+END

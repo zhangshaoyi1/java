@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/cms/front/themes/basic
+END
+frontList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/cms/front/themes/basic/frontList.jsp
+END
+frontGuestbook.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/cms/front/themes/basic/frontGuestbook.jsp
+END
+frontViewArticle.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/cms/front/themes/basic/frontViewArticle.jsp
+END
+frontIndex.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/cms/front/themes/basic/frontIndex.jsp
+END
+frontSearch.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/cms/front/themes/basic/frontSearch.jsp
+END
+frontMap.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/cms/front/themes/basic/frontMap.jsp
+END
+frontListCategory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/cms/front/themes/basic/frontListCategory.jsp
+END
+frontComment.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/cms/front/themes/basic/frontComment.jsp
+END

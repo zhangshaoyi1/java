@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.thinkgem.jeesite.test.dao.TestMajorDao">
+    
+	<sql id="testMajorColumns">
+		b.name AS "schoolname",
+		a.id AS "id",
+		a.name AS "name",
+		a.zydm AS "zydm",
+		a.school_xydm AS "schoolXydm",
+		a.zyxz AS "zyxz",
+		a.sfxz AS "sfxz",
+		a.status AS "status",
+		a.create_by AS "createBy.id",
+		a.create_date AS "createDate",
+		a.update_by AS "updateBy.id",
+		a.update_date AS "updateDate",
+		a.remarks AS "remarks",
+		a.del_flag AS "delFlag"
+	</sql>
+	
+	<sql id="testMajorJoins">
+		left join test_institute b on b.XYDM = a.school_XYDM
+	</sql>
+    
+	<select id="get" resultType="TestMajor">
+		SELECT 
+			<include refid="testMajorColumns"/>
+		FROM test_major a
+		<include refid="testMajorJoins"/>
+		WHERE a.id = #{id}
+	</select>
+	
+	<select id="findList" resultType="TestMajor">
+		SELECT 
+			<include refid="testMajorColumns"/>
+		FROM test_major a
+		<include refid="testMajorJoins"/>
+		<where>
+			a.del_flag = #{DEL_FLAG_NORMAL}
+			<if test="name != null and name != ''">
+				AND a.name LIKE 
+					<if test="dbName == 'oracle'">'%'||#{name}||'%'</if>
+					<if test="dbName == 'mssql'">'%'+#{name}+'%'</if>
+					<if test="dbName == 'mysql'">concat('%',#{name},'%')</if>
+			</if>
+		</where>
+		<choose>
+			<when test="page !=null and page.orderBy != null and page.orderBy != ''">
+				ORDER BY ${page.orderBy}
+			</when>
+			<otherwise>
+				ORDER BY a.update_date DESC
+			</otherwise>
+		</choose>
+	</select>
+	
+	<select id="findAllList" resultType="TestMajor">
+		SELECT 
+			<include refid="testMajorColumns"/>
+		FROM test_major a
+		<include refid="testMajorJoins"/>
+		<where>
+			a.del_flag = #{DEL_FLAG_NORMAL}
+		</where>		
+		<choose>
+			<when test="page !=null and page.orderBy != null and page.orderBy != ''">
+				ORDER BY ${page.orderBy}
+			</when>
+			<otherwise>
+				ORDER BY a.update_date DESC
+			</otherwise>
+		</choose>
+	</select>
+	
+	<insert id="insert">
+		INSERT INTO test_major(
+			id,
+			name,
+			zydm,
+			school_xydm,
+			zyxz,
+			sfxz,
+			status,
+			create_by,
+			create_date,
+			update_by,
+			update_date,
+			remarks,
+			del_flag
+		) VALUES (
+			#{id},
+			#{name},
+			#{zydm},
+			#{schoolXydm},
+			#{zyxz},
+			#{sfxz},
+			#{status},
+			#{createBy.id},
+			#{createDate},
+			#{updateBy.id},
+			#{updateDate},
+			#{remarks},
+			#{delFlag}
+		)
+	</insert>
+	
+	<update id="update">
+		UPDATE test_major SET 	
+			name = #{name},
+			zydm = #{zydm},
+			school_xydm = #{schoolXydm},
+			zyxz = #{zyxz},
+			sfxz = #{sfxz},
+			status = #{status},
+			update_by = #{updateBy.id},
+			update_date = #{updateDate},
+			remarks = #{remarks}
+		WHERE id = #{id}
+	</update>
+	
+	<update id="delete">
+		UPDATE test_major SET 
+			del_flag = #{DEL_FLAG_DELETE}
+		WHERE id = #{id}
+	</update>
+	
+</mapper>

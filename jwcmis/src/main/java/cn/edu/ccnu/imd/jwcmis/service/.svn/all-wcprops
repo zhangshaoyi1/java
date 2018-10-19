@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jwc_mis/!svn/ver/15/src/main/java/cn/edu/ccnu/imd/jwcmis/service
+END
+ReviewResultService.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/service/ReviewResultService.java
+END
+InstituteService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/jwc_mis/!svn/ver/15/src/main/java/cn/edu/ccnu/imd/jwcmis/service/InstituteService.java
+END
+MajorService.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jwc_mis/!svn/ver/15/src/main/java/cn/edu/ccnu/imd/jwcmis/service/MajorService.java
+END
+ExpertService.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jwc_mis/!svn/ver/15/src/main/java/cn/edu/ccnu/imd/jwcmis/service/ExpertService.java
+END
+ResearchService.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/service/ResearchService.java
+END
+StudentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jwc_mis/!svn/ver/17/src/main/java/cn/edu/ccnu/imd/jwcmis/service/StudentService.java
+END
+EmailService.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/service/EmailService.java
+END
+ThesisService.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/service/ThesisService.java
+END
+AccountService.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/service/AccountService.java
+END
+DistributeResultService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/service/DistributeResultService.java
+END
+PhoneService.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/service/PhoneService.java
+END
+DistributeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/service/DistributeService.java
+END

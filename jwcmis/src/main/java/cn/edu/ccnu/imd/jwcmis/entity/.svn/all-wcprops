@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jwc_mis/!svn/ver/15/src/main/java/cn/edu/ccnu/imd/jwcmis/entity
+END
+DistributeResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/entity/DistributeResult.java
+END
+Phone.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/entity/Phone.java
+END
+Account.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/entity/Account.java
+END
+Email.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/entity/Email.java
+END
+Thesis.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/entity/Thesis.java
+END
+Research.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/entity/Research.java
+END
+Student.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/jwc_mis/!svn/ver/17/src/main/java/cn/edu/ccnu/imd/jwcmis/entity/Student.java
+END
+Expert.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/entity/Expert.java
+END
+Major.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jwc_mis/!svn/ver/15/src/main/java/cn/edu/ccnu/imd/jwcmis/entity/Major.java
+END
+Sys_user_role.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jwc_mis/!svn/ver/17/src/main/java/cn/edu/ccnu/imd/jwcmis/entity/Sys_user_role.java
+END
+ReviewResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/entity/ReviewResult.java
+END
+Institute.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/jwc_mis/!svn/ver/15/src/main/java/cn/edu/ccnu/imd/jwcmis/entity/Institute.java
+END
+Distribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/entity/Distribute.java
+END

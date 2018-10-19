@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/gs_mis/!svn/ver/166/src/main/resources/mappings/imd/gsmis
+END
+ResearchDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/117/src/main/resources/mappings/imd/gsmis/ResearchDao.xml
+END
+ExpertDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/gs_mis/!svn/ver/160/src/main/resources/mappings/imd/gsmis/ExpertDao.xml
+END
+MajorDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/gs_mis/!svn/ver/160/src/main/resources/mappings/imd/gsmis/MajorDao.xml
+END
+DistributeDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/gs_mis/!svn/ver/166/src/main/resources/mappings/imd/gsmis/DistributeDao.xml
+END
+DistributeResultDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/164/src/main/resources/mappings/imd/gsmis/DistributeResultDao.xml
+END
+PhoneDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/gs_mis/!svn/ver/35/src/main/resources/mappings/imd/gsmis/PhoneDao.xml
+END
+AccountDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gs_mis/!svn/ver/140/src/main/resources/mappings/imd/gsmis/AccountDao.xml
+END
+ThesisDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/gs_mis/!svn/ver/140/src/main/resources/mappings/imd/gsmis/ThesisDao.xml
+END
+EmailDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/gs_mis/!svn/ver/135/src/main/resources/mappings/imd/gsmis/EmailDao.xml
+END

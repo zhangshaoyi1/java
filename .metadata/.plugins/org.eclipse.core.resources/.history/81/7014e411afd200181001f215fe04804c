@@ -1,0 +1,7 @@
+package java_io;
+
+public class test {
+	public static void main(String[] args) {
+		copyFile.copy("C:\\Users\\ZSY\\Desktop\\1.jpg", doesPath);
+	}
+}

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/gs_mis/!svn/ver/26/jeesite/src/main/java/com/thinkgem/jeesite/common/security/shiro/session
+END
+JedisSessionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/gs_mis/!svn/ver/26/jeesite/src/main/java/com/thinkgem/jeesite/common/security/shiro/session/JedisSessionDAO.java
+END
+CacheSessionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/gs_mis/!svn/ver/26/jeesite/src/main/java/com/thinkgem/jeesite/common/security/shiro/session/CacheSessionDAO.java
+END
+SessionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/gs_mis/!svn/ver/26/jeesite/src/main/java/com/thinkgem/jeesite/common/security/shiro/session/SessionDAO.java
+END
+SessionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/gs_mis/!svn/ver/26/jeesite/src/main/java/com/thinkgem/jeesite/common/security/shiro/session/SessionManager.java
+END

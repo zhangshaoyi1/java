@@ -1,0 +1,7 @@
+package splider.impl;
+
+import java.io.Serializable;
+
+public class AbstractChapterSplider implements Serializable {
+
+}

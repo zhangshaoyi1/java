@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/oa
+END
+testAuditList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/oa/testAuditList.jsp
+END
+oaNotifyList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/oa/oaNotifyList.jsp
+END
+leaveForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/oa/leaveForm.jsp
+END
+leaveTask.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/oa/leaveTask.jsp
+END
+testAuditForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/oa/testAuditForm.jsp
+END
+testAuditView.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/oa/testAuditView.jsp
+END
+oaNotifyForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/oa/oaNotifyForm.jsp
+END
+testAuditAudit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/oa/testAuditAudit.jsp
+END
+leaveList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/30/src/main/webapp/WEB-INF/views/modules/oa/leaveList.jsp
+END

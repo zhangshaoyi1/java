@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/gen
+END
+GenTemplateDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/gen/GenTemplateDao.xml
+END
+GenSchemeDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/gen/GenSchemeDao.xml
+END
+GenTableColumnDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/gen/GenTableColumnDao.xml
+END
+GenDataBaseDictDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/gen/GenDataBaseDictDao.xml
+END
+GenTableDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/gen/GenTableDao.xml
+END

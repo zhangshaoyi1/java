@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/gs_mis/!svn/ver/30/src/main/resources/mappings/modules/cms
+END
+LinkDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/gs_mis/!svn/ver/30/src/main/resources/mappings/modules/cms/LinkDao.xml
+END
+SiteDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/gs_mis/!svn/ver/30/src/main/resources/mappings/modules/cms/SiteDao.xml
+END
+ArticleDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/30/src/main/resources/mappings/modules/cms/ArticleDao.xml
+END
+GuestbookDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/gs_mis/!svn/ver/30/src/main/resources/mappings/modules/cms/GuestbookDao.xml
+END
+ArticleDataDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gs_mis/!svn/ver/30/src/main/resources/mappings/modules/cms/ArticleDataDao.xml
+END
+CommentDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/30/src/main/resources/mappings/modules/cms/CommentDao.xml
+END
+CategoryDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gs_mis/!svn/ver/30/src/main/resources/mappings/modules/cms/CategoryDao.xml
+END

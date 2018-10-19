@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages
+END
+components.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/components.mustache
+END
+customize.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/customize.mustache
+END
+index.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/index.mustache
+END
+javascript.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/javascript.mustache
+END
+scaffolding.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/scaffolding.mustache
+END
+extend.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/extend.mustache
+END
+getting-started.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/getting-started.mustache
+END
+base-css.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/base-css.mustache
+END

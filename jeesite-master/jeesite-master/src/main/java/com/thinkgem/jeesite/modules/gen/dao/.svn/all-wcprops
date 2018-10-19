@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gs_mis/!svn/ver/21/jeesite/src/main/java/com/thinkgem/jeesite/modules/gen/dao
+END
+GenTableColumnDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/gs_mis/!svn/ver/21/jeesite/src/main/java/com/thinkgem/jeesite/modules/gen/dao/GenTableColumnDao.java
+END
+GenSchemeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/gs_mis/!svn/ver/21/jeesite/src/main/java/com/thinkgem/jeesite/modules/gen/dao/GenSchemeDao.java
+END
+GenTemplateDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/gs_mis/!svn/ver/21/jeesite/src/main/java/com/thinkgem/jeesite/modules/gen/dao/GenTemplateDao.java
+END
+GenTableDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/gs_mis/!svn/ver/21/jeesite/src/main/java/com/thinkgem/jeesite/modules/gen/dao/GenTableDao.java
+END
+GenDataBaseDictDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/gs_mis/!svn/ver/21/jeesite/src/main/java/com/thinkgem/jeesite/modules/gen/dao/GenDataBaseDictDao.java
+END

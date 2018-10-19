@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/sys
+END
+UserDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/sys/UserDao.xml
+END
+DictDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/sys/DictDao.xml
+END
+RoleDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/sys/RoleDao.xml
+END
+LogDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/sys/LogDao.xml
+END
+MenuDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/sys/MenuDao.xml
+END
+AreaDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/sys/AreaDao.xml
+END
+OfficeDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/sys/OfficeDao.xml
+END

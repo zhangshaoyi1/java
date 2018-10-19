@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/static/jqGrid/4.6/i18n
+END
+grid.locale-cn.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/static/jqGrid/4.6/i18n/grid.locale-cn.js
+END
+grid.locale-en.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/static/jqGrid/4.6/i18n/grid.locale-en.js
+END
+grid.locale-tw.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/static/jqGrid/4.6/i18n/grid.locale-tw.js
+END

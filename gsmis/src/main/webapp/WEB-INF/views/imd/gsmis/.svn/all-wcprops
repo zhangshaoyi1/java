@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gs_mis/!svn/ver/166/src/main/webapp/WEB-INF/views/imd/gsmis
+END
+expertList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gs_mis/!svn/ver/128/src/main/webapp/WEB-INF/views/imd/gsmis/expertList.jsp
+END
+thesisList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gs_mis/!svn/ver/165/src/main/webapp/WEB-INF/views/imd/gsmis/thesisList.jsp
+END
+phoneList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gs_mis/!svn/ver/33/src/main/webapp/WEB-INF/views/imd/gsmis/phoneList.jsp
+END
+expertForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gs_mis/!svn/ver/159/src/main/webapp/WEB-INF/views/imd/gsmis/expertForm.jsp
+END
+thesisForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gs_mis/!svn/ver/152/src/main/webapp/WEB-INF/views/imd/gsmis/thesisForm.jsp
+END
+phoneForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gs_mis/!svn/ver/58/src/main/webapp/WEB-INF/views/imd/gsmis/phoneForm.jsp
+END
+researchSelectList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gs_mis/!svn/ver/159/src/main/webapp/WEB-INF/views/imd/gsmis/researchSelectList.jsp
+END
+majorList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/100/src/main/webapp/WEB-INF/views/imd/gsmis/majorList.jsp
+END
+researchList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gs_mis/!svn/ver/117/src/main/webapp/WEB-INF/views/imd/gsmis/researchList.jsp
+END
+emailList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/135/src/main/webapp/WEB-INF/views/imd/gsmis/emailList.jsp
+END
+distributeResultList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gs_mis/!svn/ver/167/src/main/webapp/WEB-INF/views/imd/gsmis/distributeResultList.jsp
+END
+majorForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gs_mis/!svn/ver/80/src/main/webapp/WEB-INF/views/imd/gsmis/majorForm.jsp
+END
+distributeList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gs_mis/!svn/ver/168/src/main/webapp/WEB-INF/views/imd/gsmis/distributeList.jsp
+END
+researchForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gs_mis/!svn/ver/127/src/main/webapp/WEB-INF/views/imd/gsmis/researchForm.jsp
+END
+emailForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/145/src/main/webapp/WEB-INF/views/imd/gsmis/emailForm.jsp
+END

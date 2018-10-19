@@ -1,0 +1,7 @@
+package java_io;
+
+public class test {
+	public static void main(String[] args) {
+		copyFile.copy(srcPath, doesPath);
+	}
+}

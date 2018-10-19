@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/connector
+END
+messageflow.png
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/connector/messageflow.png
+END
+association.unidirectional.png
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/connector/association.unidirectional.png
+END
+association.undirected.png
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/connector/association.undirected.png
+END
+sequenceflow.png
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/connector/sequenceflow.png
+END

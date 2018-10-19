@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jwc_mis/!svn/ver/15/src/main/java/cn/edu/ccnu/imd/jwcmis/dao
+END
+ReviewResultDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/dao/ReviewResultDao.java
+END
+InstituteDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/jwc_mis/!svn/ver/15/src/main/java/cn/edu/ccnu/imd/jwcmis/dao/InstituteDao.java
+END
+MajorDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jwc_mis/!svn/ver/15/src/main/java/cn/edu/ccnu/imd/jwcmis/dao/MajorDao.java
+END
+ExpertDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jwc_mis/!svn/ver/15/src/main/java/cn/edu/ccnu/imd/jwcmis/dao/ExpertDao.java
+END
+ResearchDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/dao/ResearchDao.java
+END
+StudentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/jwc_mis/!svn/ver/17/src/main/java/cn/edu/ccnu/imd/jwcmis/dao/StudentDao.java
+END
+EmailDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/dao/EmailDao.java
+END
+ThesisDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/dao/ThesisDao.java
+END
+AccountDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/dao/AccountDao.java
+END
+DistributeResultDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/dao/DistributeResultDao.java
+END
+PhoneDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/dao/PhoneDao.java
+END
+DistributeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jwc_mis/!svn/ver/13/src/main/java/cn/edu/ccnu/imd/jwcmis/dao/DistributeDao.java
+END

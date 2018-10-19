@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms
+END
+cmsTree.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/cmsTree.jsp
+END
+cmsIndex.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/cmsIndex.jsp
+END
+siteForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/siteForm.jsp
+END
+tplTree.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/tplTree.jsp
+END
+articleSelectList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/articleSelectList.jsp
+END
+tplHelp.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/tplHelp.jsp
+END
+articleList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/articleList.jsp
+END
+tplForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/tplForm.jsp
+END
+statsArticle.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/statsArticle.jsp
+END
+linkList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/linkList.jsp
+END
+articleForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/articleForm.jsp
+END
+categoryList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/categoryList.jsp
+END
+commentList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/commentList.jsp
+END
+linkForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/linkForm.jsp
+END
+guestbookList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/guestbookList.jsp
+END
+cmsNone.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/cmsNone.jsp
+END
+categoryForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/categoryForm.jsp
+END
+tplIndex.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/tplIndex.jsp
+END
+siteSelect.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/siteSelect.jsp
+END
+guestbookForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/guestbookForm.jsp
+END
+siteList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/cms/siteList.jsp
+END

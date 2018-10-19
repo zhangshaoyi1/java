@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/activity
+END
+task.png
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/activity/task.png
+END
+event.subprocess.collapsed.png
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.collapsed.png
+END
+subprocess.png
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/activity/subprocess.png
+END
+event.subprocess.png
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.png
+END
+expanded.subprocess.png
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/activity/expanded.subprocess.png
+END

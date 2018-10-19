@@ -1,0 +1,99 @@
+10
+
+dir
+24
+http://47.93.46.30:8088/svn/gs_mis/jeesite/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons
+http://47.93.46.30:8088/svn/gs_mis
+
+
+
+2018-07-27T11:58:04.587922Z
+24
+ZSY
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1aecbb91-7e8b-674f-89a2-faf668360340
+
+
+
+
+
+
+0
+
+activity
+dir
+
+artifact
+dir
+
+catching
+dir
+
+connector
+dir
+
+dataobject
+dir
+
+diagram.png
+file
+
+
+
+
+2016-12-31T12:09:20.000000Z
+a45eb3b001a734be2e95a0f1bb0a6f83
+2018-07-27T11:58:04.587922Z
+24
+ZSY
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+206
+
+endevent
+dir
+
+gateway
+dir
+
+startevent
+dir
+
+swimlane
+dir
+
+throwing
+dir
+

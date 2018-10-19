@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gs_mis/!svn/ver/26/jeesite/src/main/java/com/thinkgem/jeesite/common/persistence/proxy
+END
+PaginationMapperMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/gs_mis/!svn/ver/26/jeesite/src/main/java/com/thinkgem/jeesite/common/persistence/proxy/PaginationMapperMethod.java
+END
+PaginationMapperRegistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/gs_mis/!svn/ver/26/jeesite/src/main/java/com/thinkgem/jeesite/common/persistence/proxy/PaginationMapperRegistry.java
+END
+PageConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/gs_mis/!svn/ver/26/jeesite/src/main/java/com/thinkgem/jeesite/common/persistence/proxy/PageConfiguration.java
+END
+PaginationMapperProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/gs_mis/!svn/ver/26/jeesite/src/main/java/com/thinkgem/jeesite/common/persistence/proxy/PaginationMapperProxy.java
+END

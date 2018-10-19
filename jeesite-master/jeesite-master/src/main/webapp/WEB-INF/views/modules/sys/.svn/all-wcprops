@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys
+END
+userIndex.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/userIndex.jsp
+END
+userList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/userList.jsp
+END
+areaList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/areaList.jsp
+END
+userList-jq.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/userList-jq.jsp
+END
+sysIndex2.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/sysIndex2.jsp
+END
+tagIconselect.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/tagIconselect.jsp
+END
+userForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/userForm.jsp
+END
+areaForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/areaForm.jsp
+END
+dictList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/dictList.jsp
+END
+roleList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/roleList.jsp
+END
+tagTreeselect.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/tagTreeselect.jsp
+END
+officeIndex.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/officeIndex.jsp
+END
+sysLogin2.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/sysLogin2.jsp
+END
+selectUserToRole.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/selectUserToRole.jsp
+END
+userModifyPwd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/userModifyPwd.jsp
+END
+menuTreeselect.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/menuTreeselect.jsp
+END
+userInfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/userInfo.jsp
+END
+dictForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/dictForm.jsp
+END
+officeList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/officeList.jsp
+END
+roleForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/roleForm.jsp
+END
+sysLogin.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/sysLogin.jsp
+END
+menuList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/menuList.jsp
+END
+menuTree.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/menuTree.jsp
+END
+officeForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/officeForm.jsp
+END
+logList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/logList.jsp
+END
+menuForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/menuForm.jsp
+END
+roleAssign.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/roleAssign.jsp
+END
+sysIndex.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/views/modules/sys/sysIndex.jsp
+END

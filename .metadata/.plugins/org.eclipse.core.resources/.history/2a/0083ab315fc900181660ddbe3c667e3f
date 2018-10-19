@@ -1,0 +1,93 @@
+/**
+ * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ */
+package cn.edu.ccnu.imd.jwcmis.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.thinkgem.jeesite.common.persistence.Page;
+import com.thinkgem.jeesite.common.service.CrudService;
+import com.thinkgem.jeesite.common.utils.IdGen;
+import com.thinkgem.jeesite.modules.sys.dao.OfficeDao;
+import com.thinkgem.jeesite.modules.sys.dao.UserDao;
+import com.thinkgem.jeesite.modules.sys.entity.Office;
+import com.thinkgem.jeesite.modules.sys.entity.User;
+import com.thinkgem.jeesite.modules.sys.service.SystemService;
+
+import cn.edu.ccnu.imd.jwcmis.entity.Student;
+import cn.edu.ccnu.imd.jwcmis.entity.Sys_user_role;
+import cn.edu.ccnu.imd.jwcmis.dao.StudentDao;
+
+/**
+ * 学生信息管理Service
+ * @author 黑白
+ * @version 2018-09-23
+ */
+@Service
+@Transactional(readOnly = true)
+public class StudentService extends CrudService<StudentDao, Student> {
+
+	@Autowired 
+	public StudentDao studentDao;
+	@Autowired 
+	public UserDao userDao;
+	@Autowired 
+	public OfficeDao officeDao;
+	@Autowired
+	private SystemService systemService;
+	
+	public Student get(String id) {
+		return super.get(id);
+	}
+	
+	public List<Student> findList(Student student) {
+		return super.findList(student);
+	}
+	
+	public Page<Student> findPage(Page<Student> page, Student student) {
+		return super.findPage(page, student);
+	}
+	
+	@Transactional(readOnly = false)
+	public void save(Student student) {
+		String userid = IdGen.uuid();//自动生成用户id
+		//保存学生角色信息
+		Sys_user_role sys_user_role = new Sys_user_role();
+		sys_user_role.setUser_id(userid);
+		sys_user_role.setRole_id("3");//设置为学生角色
+		studentDao.insert_sys_user_role(sys_user_role);//插入用户角色表
+		//保存用户信息
+		User user = new User();
+		Office office = new Office();
+		office = officeDao.getByName(student.getDepartment());
+		user.setCompany(office);//学校
+		user.setOffice(office);//学院
+		
+		//user.setOffice_id(officeDao.getByName(student.getDepartment()).getId());
+		user.setCompany_id("1");//学校
+		user.setOffice_id("2");//学院		
+		user.setLoginName(student.getPhone());
+		user.setPassword(SystemService.entryptPassword(student.getPhone()));//密码
+		user.setNo(student.getStudentnum());//工号、学号
+		user.setName(student.getName());//姓名
+		user.setEmail(student.getEmail());//email
+		user.setPhone(student.getPhone());//phone
+		user.setUserType("student");//用户类型
+		user.setLoginFlag("1");//是否允许登陆
+		systemService.saveUser(user);
+		//保存学生信息
+		student.setUserid(userid);
+		super.save(student);
+	}
+	
+	@Transactional(readOnly = false)
+	public void delete(Student student) {
+		super.delete(student);
+	}
+	
+	
+}

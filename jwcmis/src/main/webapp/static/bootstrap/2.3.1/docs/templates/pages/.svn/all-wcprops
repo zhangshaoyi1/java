@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages
+END
+components.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/components.mustache
+END
+customize.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/customize.mustache
+END
+index.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/index.mustache
+END
+javascript.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/javascript.mustache
+END
+scaffolding.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/scaffolding.mustache
+END
+extend.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/extend.mustache
+END
+getting-started.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/getting-started.mustache
+END
+base-css.mustache
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/static/bootstrap/2.3.1/docs/templates/pages/base-css.mustache
+END

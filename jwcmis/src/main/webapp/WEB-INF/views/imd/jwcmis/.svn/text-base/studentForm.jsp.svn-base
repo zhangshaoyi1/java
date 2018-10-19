@@ -1,0 +1,213 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ include file="/WEB-INF/views/include/taglib.jsp"%>
+<html>
+<head>
+	<title>学生信息管理</title>
+	<meta name="decorator" content="default"/>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$("#inputForm").validate({
+			submitHandler: function (form){
+				if(checkEmail()){
+					if(checkPhone()) {
+						loading('正在提交，请稍等...');
+						form.submit();
+					}else {
+						alert("手机号码验证未通过! ");
+						return false;
+					}
+				}else{
+					alert("邮箱验证未通过! ");
+					return false;
+				}
+			},
+			errorContainer: "#messageBox",
+			errorPlacement: function(error, element) {
+				$("#messageBox").text("输入有误，请先更正。");
+				if (element.is(":checkbox")||element.is(":radio")||element.parent().is(".input-append")){
+					error.appendTo(element.parent().parent());
+				} else {
+					error.insertAfter(element);
+				}
+			}
+		}); 
+		//已分配论文数填充
+		var distributeNum = $("#distributeNum").val();
+		if(distributeNum == null || distributeNum == ""){
+			$("#distributeNum").val(0);
+		}
+		//获取原有的邮箱、手机号、银行卡号
+		emailOld = $("#email").val();
+		phoneOld = $("#phone").val();
+		bankCardNumberOld = $("#bankCardNumber").val();
+	});	
+	
+	//全局变量，用于传送需要查重的邮箱、手机号、银行卡号值
+	var checkString = "";
+	//邮箱验证
+	function checkEmail() {
+		//邮箱的正则表达式
+		var emailReg = /^\w+@[a-zA-Z0-9]{2,10}(?:\.[a-z]{2,4}){1,3}$/;
+		//实时获取邮箱
+		var emailNew = email.value;
+		//标志变量
+		var checkResult = true;
+		if(emailOld != emailNew && emailNew != null & emailNew != ""){		//判断是否更改
+			if(emailReg.test(emailNew)){
+				$.ajax({
+					async:false,
+					type:"post",
+					url:"${ctx}/jwcmis/expert/checkRepeat?checkString=" + emailNew,
+					dataType:'html',
+					error : function() {
+				        alert('请求失败！请刷新页面重试！ ');
+				    },
+				    success : function(data) {
+				    	if (data == 0) {
+				    		email_notice.innerHTML = '邮箱验证通过！';
+							email_notice.style.color = 'green';
+						}
+						else {
+							email_notice.innerHTML = "邮箱已经被占用!";
+							email_notice.style.color = 'red';
+							checkResult = false;
+						}
+				    }
+				});
+			}else {
+				email_notice.innerHTML = '邮箱验证未通过，请重新输入！';
+				email_notice.style.color = 'red';
+				checkResult = false;
+			}
+		}else if(emailNew != null & emailNew != ""){
+			email_notice.innerHTML = '邮箱验证通过！';
+			email_notice.style.color = 'green';
+			}else{
+				email_notice.innerHTML = '请输入邮箱！';
+				email_notice.style.color = 'red';
+				checkResult = false;
+			}
+		return checkResult;
+	}
+	
+	//手机号码验证
+	function checkPhone() {
+		//手机号的正则表达式
+		var phoneReg = /^(13[0-9]{9})|(18[0-9]{9})|(14[0-9]{9})|(17[0-9]{9})|(15[0-9]{9})$/;
+		//实时获取手机号
+		var phoneNew = phone.value;
+		var checkResult = true;
+		if(phoneOld != phoneNew && phoneNew != null && phoneNew != ""){
+			if(phoneReg.test(phoneNew)){
+				$.ajax({
+					async:false,
+					type:"post",
+					url:"${ctx}/jwcmis/expert/checkRepeat?checkString=" + phoneNew,
+					dataType:'html',
+					error : function() {
+				        alert('请求失败！请刷新页面重试！ ');
+				    },
+				    success : function(data) {
+				    	if (data == 0) {
+				    		phone_notice.innerHTML = '手机号码验证通过！';
+				    		phone_notice.style.color = 'green';
+						}
+						else {
+							phone_notice.innerHTML = "手机号码已经被占用!";
+							phone_notice.style.color = 'red';
+							checkResult = false;
+						}
+				    }
+				});
+			}else {
+				phone_notice.innerHTML = '手机号码验证未通过！';
+				phone_notice.style.color = 'red';
+				checkResult = false;
+			}
+		}else if(phoneNew != null && phoneNew != ""){
+			phone_notice.innerHTML = '手机号码验证通过！';
+	   		phone_notice.style.color = 'green';
+			}else{
+				phone_notice.innerHTML = '请输入手机号码！';
+				phone_notice.style.color = 'red';
+				checkResult = false;
+			}
+		return checkResult;
+	}
+	
+	</script>
+</head>
+<body>
+	<ul class="nav nav-tabs">
+		<li><a href="${ctx}/jwcmis/student/">学生信息列表</a></li>
+		<li class="active"><a href="${ctx}/jwcmis/student/form?id=${student.id}">学生信息<shiro:hasPermission name="jwcmis:student:edit">${not empty student.id?'修改':'添加'}</shiro:hasPermission><shiro:lacksPermission name="jwcmis:student:edit">查看</shiro:lacksPermission></a></li>
+	</ul><br/>
+	<form:form id="inputForm" modelAttribute="student" action="${ctx}/jwcmis/student/save" method="post" class="form-horizontal">
+		<form:hidden path="id"/>
+		<sys:message content="${message}"/>		
+		
+		<div class="control-group">
+			<label class="control-label">学生姓名：</label>
+			<div class="controls">
+				<form:input path="name" htmlEscape="false" maxlength="64" class="input-xlarge required"/>
+				<span class="help-inline"><font color="red">*</font> </span>
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label">学号：</label>
+			<div class="controls">
+				<form:input path="studentnum" htmlEscape="false" maxlength="64" class="input-xlarge required"/>
+				<span class="help-inline"><font color="red">*</font> </span>
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label">导师名：</label>
+			<div class="controls">
+				<form:input path="supervisor" htmlEscape="false" maxlength="64" class="input-xlarge required"/>
+				<span class="help-inline"><font color="red">*</font> </span>
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label">学院：</label>
+			<div class="controls">
+				<form:input path="department" htmlEscape="false" maxlength="64" class="input-xlarge required"/>
+				<span class="help-inline"><font color="red">*</font> </span>
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label">邮箱：</label>
+			<div class="controls">
+				<form:input path="email" id="email" value="" oninput="checkEmail()" htmlEscape="false" maxlength="64" class="input-xlarge required" />
+				<span class="help-inline" id="email_notice"><font color="red">*</font> </span>
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label">手机号：</label>
+			<div class="controls">
+				<form:input path="phone" id="phone" value="" oninput="checkPhone()" htmlEscape="false" maxlength="11" class="input-xlarge required" />
+				<span class="help-inline" id="phone_notice"><font color="red">*</font> </span>
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label">专业：</label>
+			<div class="controls">
+				<form:select path="major" class="input-xlarge required">
+					<form:option value="11" label="11"/>
+					<form:options items="${fns:getDictList('')}" itemLabel="label" itemValue="value" htmlEscape="false"/>
+				</form:select>
+				<span class="help-inline"><font color="red">*</font> </span>
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label">备注信息：</label>
+			<div class="controls">
+				<form:textarea path="remarks" htmlEscape="false" rows="4" maxlength="255" class="input-xxlarge "/>
+			</div>
+		</div>
+		<div class="form-actions">
+			<shiro:hasPermission name="jwcmis:student:edit"><input id="btnSubmit" class="btn btn-primary" type="submit" value="保 存"/>&nbsp;</shiro:hasPermission>
+			<input id="btnCancel" class="btn" type="button" value="返 回" onclick="history.go(-1)"/>
+		</div>
+	</form:form>
+</body>
+</html>

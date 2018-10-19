@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gs_mis/!svn/ver/160/src/main/java/cn/edu/ccnu/imd/gsmis/service
+END
+MajorService.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/160/src/main/java/cn/edu/ccnu/imd/gsmis/service/MajorService.java
+END
+ExpertService.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gs_mis/!svn/ver/160/src/main/java/cn/edu/ccnu/imd/gsmis/service/ExpertService.java
+END
+ResearchService.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gs_mis/!svn/ver/117/src/main/java/cn/edu/ccnu/imd/gsmis/service/ResearchService.java
+END
+ThesisService.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gs_mis/!svn/ver/159/src/main/java/cn/edu/ccnu/imd/gsmis/service/ThesisService.java
+END
+EmailService.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/155/src/main/java/cn/edu/ccnu/imd/gsmis/service/EmailService.java
+END
+AccountService.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gs_mis/!svn/ver/152/src/main/java/cn/edu/ccnu/imd/gsmis/service/AccountService.java
+END
+DistributeResultService.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/gs_mis/!svn/ver/159/src/main/java/cn/edu/ccnu/imd/gsmis/service/DistributeResultService.java
+END
+PhoneService.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/34/src/main/java/cn/edu/ccnu/imd/gsmis/service/PhoneService.java
+END
+DistributeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gs_mis/!svn/ver/159/src/main/java/cn/edu/ccnu/imd/gsmis/service/DistributeService.java
+END

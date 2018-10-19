@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Oct 09 19:34:08 CST 2018
+org.eclipse.jst.jee.server\:jwcmis=E\:\\Download\\tomcat\\webapps\\jwcmis
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\ZSY\\.m2\\repository\\org\\springframework\\spring-web\\4.1.9.RELEASE\\spring-web-4.1.9.RELEASE.jar=E\:\\Download\\tomcat\\webapps\\jwcmis\\WEB-INF\\lib\\spring-web-4.1.9.RELEASE.jar

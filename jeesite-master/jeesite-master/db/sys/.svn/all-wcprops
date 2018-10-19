@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/gs_mis/!svn/ver/11/jeesite/db/sys
+END
+jeesite-sys.xls
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/gs_mis/!svn/ver/11/jeesite/db/sys/jeesite-sys.xls
+END
+jeesite.erm
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/gs_mis/!svn/ver/11/jeesite/db/sys/jeesite.erm
+END
+jeesite_mysql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/gs_mis/!svn/ver/11/jeesite/db/sys/jeesite_mysql.sql
+END
+jeesite_data.xls
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/gs_mis/!svn/ver/11/jeesite/db/sys/jeesite_data.xls
+END
+jeesite_mssql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/gs_mis/!svn/ver/11/jeesite/db/sys/jeesite_mssql.sql
+END
+jeesite_oracle.sql
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/gs_mis/!svn/ver/11/jeesite/db/sys/jeesite_oracle.sql
+END

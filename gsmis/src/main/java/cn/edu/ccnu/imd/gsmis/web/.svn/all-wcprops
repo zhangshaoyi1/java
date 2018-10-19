@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gs_mis/!svn/ver/166/src/main/java/cn/edu/ccnu/imd/gsmis/web
+END
+DistributeController.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gs_mis/!svn/ver/166/src/main/java/cn/edu/ccnu/imd/gsmis/web/DistributeController.java
+END
+DistributeResultController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/gs_mis/!svn/ver/162/src/main/java/cn/edu/ccnu/imd/gsmis/web/DistributeResultController.java
+END
+PhoneController.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/gs_mis/!svn/ver/55/src/main/java/cn/edu/ccnu/imd/gsmis/web/PhoneController.java
+END
+AccountController.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gs_mis/!svn/ver/132/src/main/java/cn/edu/ccnu/imd/gsmis/web/AccountController.java
+END
+EmailController.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/161/src/main/java/cn/edu/ccnu/imd/gsmis/web/EmailController.java
+END
+ThesisController.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/165/src/main/java/cn/edu/ccnu/imd/gsmis/web/ThesisController.java
+END
+ResearchController.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gs_mis/!svn/ver/148/src/main/java/cn/edu/ccnu/imd/gsmis/web/ResearchController.java
+END
+ExpertController.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/160/src/main/java/cn/edu/ccnu/imd/gsmis/web/ExpertController.java
+END
+MajorController.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/148/src/main/java/cn/edu/ccnu/imd/gsmis/web/MajorController.java
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/ckeditor
+END
+ckeditor_basic_source.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/ckeditor/ckeditor_basic_source.js
+END
+ckeditor.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/ckeditor/ckeditor.js
+END
+ckeditor.pack
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/ckeditor/ckeditor.pack
+END
+ckeditor_source.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/ckeditor/ckeditor_source.js
+END
+ckeditor_basic.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/ckeditor/ckeditor_basic.js
+END
+config.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/ckeditor/config.js
+END
+CHANGES.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/ckeditor/CHANGES.html
+END
+LICENSE.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/ckeditor/LICENSE.html
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/ckeditor/.htaccess
+END
+INSTALL.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/ckeditor/INSTALL.html
+END
+contents.css
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/ckeditor/contents.css
+END

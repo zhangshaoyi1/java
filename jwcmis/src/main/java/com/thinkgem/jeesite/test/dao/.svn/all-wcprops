@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/test/dao
+END
+TestDataMainDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/test/dao/TestDataMainDao.java
+END
+TestDataDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/test/dao/TestDataDao.java
+END
+TestDataChildDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/test/dao/TestDataChildDao.java
+END
+TestTreeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/test/dao/TestTreeDao.java
+END

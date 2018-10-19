@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/jeesite/test
+END
+TestMeetDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/jeesite/test/TestMeetDao.xml
+END
+TestManDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/jeesite/test/TestManDao.xml
+END
+TestMajorDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/jeesite/test/TestMajorDao.xml
+END
+TestDataMainDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/jeesite/test/TestDataMainDao.xml
+END
+TestInstituteDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/jeesite/test/TestInstituteDao.xml
+END
+TestStationDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/jeesite/test/TestStationDao.xml
+END
+TestDataChildDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/jeesite/test/TestDataChildDao.xml
+END
+TestTreeDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/jeesite/test/TestTreeDao.xml
+END
+TestDataDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/jeesite/test/TestDataDao.xml
+END

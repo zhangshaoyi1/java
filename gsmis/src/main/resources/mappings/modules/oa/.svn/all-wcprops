@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/gs_mis/!svn/ver/30/src/main/resources/mappings/modules/oa
+END
+OaNotifyDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/30/src/main/resources/mappings/modules/oa/OaNotifyDao.xml
+END
+TestAuditDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gs_mis/!svn/ver/30/src/main/resources/mappings/modules/oa/TestAuditDao.xml
+END
+LeaveDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/gs_mis/!svn/ver/30/src/main/resources/mappings/modules/oa/LeaveDao.xml
+END
+OaNotifyRecordDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/gs_mis/!svn/ver/30/src/main/resources/mappings/modules/oa/OaNotifyRecordDao.xml
+END

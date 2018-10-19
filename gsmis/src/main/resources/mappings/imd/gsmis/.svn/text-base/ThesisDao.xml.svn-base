@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.ccnu.imd.gsmis.dao.ThesisDao">
+    
+	<sql id="thesisColumns">
+		a.id AS "id",
+		a.reviewdepart AS "reviewdepart",
+		a.reviewdeadline AS "reviewdeadline",
+		a.studentid AS "studentid",
+		a.mastername AS "mastername",
+		a.supervisor AS "supervisor",
+		a.thesisnumber AS "thesisnumber",
+		a.major AS "major",
+		a.topic AS "topic",
+		a.keywords AS "keywords",
+		a.status AS "status",
+		a.url AS "url",
+		a.create_by AS "createBy.id",
+		a.create_date AS "createDate",
+		a.update_by AS "updateBy.id",
+		a.update_date AS "updateDate",
+		a.remarks AS "remarks",
+		a.del_flag AS "delFlag"
+	</sql>
+	<sql id="thesisJoins">
+	</sql>
+    
+	<select id="get" resultType="Thesis">
+		SELECT 
+			<include refid="thesisColumns"/>
+		FROM thesis a
+		<include refid="thesisJoins"/>
+		WHERE a.id = #{id}
+	</select>
+	<select id="findList" resultType="Thesis">
+		SELECT 
+			<include refid="thesisColumns"/>
+		FROM thesis a
+		<include refid="thesisJoins"/>
+		<where>
+			a.del_flag = #{DEL_FLAG_NORMAL}
+			<if test="reviewdepart != null and reviewdepart != ''">
+				AND a.reviewdepart LIKE 
+					<if test="dbName == 'oracle'">'%'||#{reviewdepart}||'%'</if>
+					<if test="dbName == 'mssql'">'%'+#{reviewdepart}+'%'</if>
+					<if test="dbName == 'mysql'">concat('%',#{reviewdepart},'%')</if>
+			</if>
+			<if test="reviewdeadline != null and reviewdeadline != ''">
+				AND a.reviewdeadline LIKE 
+					<if test="dbName == 'oracle'">'%'||#{reviewdeadline}||'%'</if>
+					<if test="dbName == 'mssql'">'%'+#{reviewdeadline}+'%'</if>
+					<if test="dbName == 'mysql'">concat('%',#{reviewdeadline},'%')</if>
+			</if>
+			<if test="studentid != null and studentid != ''">
+				AND a.studentid = #{studentid}
+			</if>
+			<if test="mastername != null and mastername != ''">
+				AND a.mastername LIKE 
+					<if test="dbName == 'oracle'">'%'||#{mastername}||'%'</if>
+					<if test="dbName == 'mssql'">'%'+#{mastername}+'%'</if>
+					<if test="dbName == 'mysql'">concat('%',#{mastername},'%')</if>
+			</if>
+			<if test="major != null and major != ''">
+				AND a.major LIKE 
+					<if test="dbName == 'oracle'">'%'||#{major}||'%'</if>
+					<if test="dbName == 'mssql'">'%'+#{major}+'%'</if>
+					<if test="dbName == 'mysql'">concat('%',#{major},'%')</if>
+			</if>
+			<if test="status != null and status != ''">
+				AND a.status LIKE 
+					<if test="dbName == 'oracle'">'%'||#{status}||'%'</if>
+					<if test="dbName == 'mssql'">'%'+#{status}+'%'</if>
+					<if test="dbName == 'mysql'">concat('%',#{status},'%')</if>
+			</if>
+		</where>
+		<choose>
+			<when test="page !=null and page.orderBy != null and page.orderBy != ''">
+				ORDER BY ${page.orderBy}
+			</when>
+			<otherwise>
+				ORDER BY a.update_date DESC
+			</otherwise>
+		</choose>
+	</select>
+	
+	<select id="findAllList" resultType="Thesis">
+		SELECT 
+			<include refid="thesisColumns"/>
+		FROM thesis a
+		<include refid="thesisJoins"/>
+		<where>
+			a.del_flag = #{DEL_FLAG_NORMAL}
+		</where>		
+		<choose>
+			<when test="page !=null and page.orderBy != null and page.orderBy != ''">
+				ORDER BY ${page.orderBy}
+			</when>
+			<otherwise>
+				ORDER BY a.update_date DESC
+			</otherwise>
+		</choose>
+	</select>
+	
+	<insert id="insert">
+		INSERT INTO thesis(
+			id,
+			reviewdepart,
+			reviewdeadline,
+			studentid,
+			mastername,
+			supervisor,
+			thesisnumber,
+			major,
+			topic,
+			keywords,
+			status,
+			url,
+			create_by,
+			create_date,
+			update_by,
+			update_date,
+			remarks,
+			del_flag
+		) VALUES (
+			#{id},
+			#{reviewdepart},
+			#{reviewdeadline},
+			#{studentid},
+			#{mastername},
+			#{supervisor},
+			#{thesisnumber},
+			#{major},
+			#{topic},
+			#{keywords},
+			#{status},
+			#{url},
+			#{createBy.id},
+			#{createDate},
+			#{updateBy.id},
+			#{updateDate},
+			#{remarks},
+			#{delFlag}
+		)
+	</insert>
+	
+	<update id="update">
+		UPDATE thesis SET 	
+			reviewdepart = #{reviewdepart},
+			reviewdeadline = #{reviewdeadline},
+			studentid = #{studentid},
+			mastername = #{mastername},
+			supervisor = #{supervisor},
+			thesisnumber = #{thesisnumber},
+			major = #{major},
+			topic = #{topic},
+			keywords = #{keywords},
+			status = #{status},
+			url = #{url},
+			update_by = #{updateBy.id},
+			update_date = #{updateDate},
+			remarks = #{remarks}
+		WHERE id = #{id}
+	</update>
+	
+	<update id="delete">
+		UPDATE thesis SET 
+			del_flag = #{DEL_FLAG_DELETE}
+		WHERE id = #{id}
+	</update>
+	
+</mapper>

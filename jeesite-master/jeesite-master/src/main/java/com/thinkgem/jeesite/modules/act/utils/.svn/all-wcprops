@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/utils
+END
+ActUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/utils/ActUtils.java
+END
+PropertyType.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/utils/PropertyType.java
+END
+ProcessDefCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/utils/ProcessDefCache.java
+END
+Variable.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/utils/Variable.java
+END
+ProcessDefUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/utils/ProcessDefUtils.java
+END
+DateConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/utils/DateConverter.java
+END

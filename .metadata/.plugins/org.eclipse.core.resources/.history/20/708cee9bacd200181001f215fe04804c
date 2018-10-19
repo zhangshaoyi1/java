@@ -1,0 +1,11 @@
+package java_io;
+
+ class copyFile {
+	 /**
+	  * 拷贝文件
+	  * @param isPath 数据来源
+	  * @param doesPath 数据去向
+	  */
+	public static void copy(String isPath,String doesPath) {}
+}
+

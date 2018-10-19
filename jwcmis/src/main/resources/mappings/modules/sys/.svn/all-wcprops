@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jwc_mis/!svn/ver/15/src/main/resources/mappings/modules/sys
+END
+UserDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/jwc_mis/!svn/ver/1/src/main/resources/mappings/modules/sys/UserDao.xml
+END
+DictDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/jwc_mis/!svn/ver/1/src/main/resources/mappings/modules/sys/DictDao.xml
+END
+RoleDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/jwc_mis/!svn/ver/1/src/main/resources/mappings/modules/sys/RoleDao.xml
+END
+LogDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/jwc_mis/!svn/ver/1/src/main/resources/mappings/modules/sys/LogDao.xml
+END
+MenuDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/jwc_mis/!svn/ver/1/src/main/resources/mappings/modules/sys/MenuDao.xml
+END
+AreaDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/jwc_mis/!svn/ver/1/src/main/resources/mappings/modules/sys/AreaDao.xml
+END
+OfficeDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/jwc_mis/!svn/ver/17/src/main/resources/mappings/modules/sys/OfficeDao.xml
+END

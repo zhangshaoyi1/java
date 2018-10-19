@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/jwc_mis/!svn/ver/1/src/main/resources/cache
+END
+ehcache-local.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jwc_mis/!svn/ver/1/src/main/resources/cache/ehcache-local.xml
+END
+ehcache-rmi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jwc_mis/!svn/ver/1/src/main/resources/cache/ehcache-rmi.xml
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/jingle/js/lib
+END
+Jingle.debug.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/jingle/js/lib/Jingle.debug.js
+END
+iscroll.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/jingle/js/lib/iscroll.js
+END
+zepto.touch2mouse.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/jingle/js/lib/zepto.touch2mouse.js
+END
+zepto.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/jingle/js/lib/zepto.js
+END
+barcodescanner.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/jingle/js/lib/barcodescanner.js
+END
+template.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/jingle/js/lib/template.min.js
+END
+cordova.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/jingle/js/lib/cordova.js
+END
+JChart.debug.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/gs_mis/!svn/ver/30/src/main/webapp/static/jingle/js/lib/JChart.debug.js
+END

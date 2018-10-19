@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/gateway
+END
+parallel.png
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/gateway/parallel.png
+END
+eventbased.png
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/gateway/eventbased.png
+END
+exclusive.databased.png
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/gateway/exclusive.databased.png
+END
+inclusive.png
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/jwc_mis/!svn/ver/1/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/gateway/inclusive.png
+END

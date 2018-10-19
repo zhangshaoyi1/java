@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/gs_mis/!svn/ver/13/jeesite/db/upgrade
+END
+upgrade20131204.sql
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/gs_mis/!svn/ver/13/jeesite/db/upgrade/upgrade20131204.sql
+END
+upgrade20131129.sql
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/gs_mis/!svn/ver/13/jeesite/db/upgrade/upgrade20131129.sql
+END
+upgrade20140108.sql
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/gs_mis/!svn/ver/13/jeesite/db/upgrade/upgrade20140108.sql
+END

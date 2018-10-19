@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create
+END
+activiti.oracle.create.history.sql
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.oracle.create.history.sql
+END
+activiti.db2.create.identity.sql
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.db2.create.identity.sql
+END
+activiti.postgres.create.history.sql
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.postgres.create.history.sql
+END
+activiti.postgres.create.identity.sql
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.postgres.create.identity.sql
+END
+activiti.db2.create.engine.sql
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.db2.create.engine.sql
+END
+activiti.db2.create.history.sql
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.db2.create.history.sql
+END
+activiti.postgres.create.engine.sql
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.postgres.create.engine.sql
+END
+activiti.oracle.create.identity.sql
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.oracle.create.identity.sql
+END
+activiti.oracle.create.engine.sql
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.oracle.create.engine.sql
+END
+activiti.mysql.create.identity.sql
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.mysql.create.identity.sql
+END
+activiti.h2.create.history.sql
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.h2.create.history.sql
+END
+activiti.hsql.create.identity.sql
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.hsql.create.identity.sql
+END
+activiti.mssql.create.history.sql
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.mssql.create.history.sql
+END
+activiti.mysql.create.engine.sql
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.mysql.create.engine.sql
+END
+activiti.mysql55.create.engine.sql
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.mysql55.create.engine.sql
+END
+activiti.h2.create.identity.sql
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.h2.create.identity.sql
+END
+activiti.hsql.create.engine.sql
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.hsql.create.engine.sql
+END
+activiti.hsql.create.history.sql
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.hsql.create.history.sql
+END
+activiti.mssql.create.identity.sql
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.mssql.create.identity.sql
+END
+activiti.mysql.create.history.sql
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.mysql.create.history.sql
+END
+activiti.mysql55.create.history.sql
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.mysql55.create.history.sql
+END
+activiti.h2.create.engine.sql
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.h2.create.engine.sql
+END
+activiti.mssql.create.engine.sql
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gs_mis/!svn/ver/7/jeesite/db/act/create/activiti.mssql.create.engine.sql
+END

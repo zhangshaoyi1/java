@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/security/shiro/cache
+END
+JedisCacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/security/shiro/cache/JedisCacheManager.java
+END
+SessionCacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/security/shiro/cache/SessionCacheManager.java
+END

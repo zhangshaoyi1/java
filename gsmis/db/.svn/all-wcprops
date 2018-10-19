@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/gs_mis/!svn/ver/149/db
+END
+jeesite_mysql.sql.bak
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/gs_mis/!svn/ver/31/db/jeesite_mysql.sql.bak
+END
+init-db.bat
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/gs_mis/!svn/ver/30/db/init-db.bat
+END
+jeesite_mysql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/gs_mis/!svn/ver/30/db/jeesite_mysql.sql
+END
+gsmis.sql
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/gs_mis/!svn/ver/149/db/gsmis.sql
+END

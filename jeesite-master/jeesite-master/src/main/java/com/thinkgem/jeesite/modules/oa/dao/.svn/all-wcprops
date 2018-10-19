@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gs_mis/!svn/ver/22/jeesite/src/main/java/com/thinkgem/jeesite/modules/oa/dao
+END
+LeaveDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/gs_mis/!svn/ver/22/jeesite/src/main/java/com/thinkgem/jeesite/modules/oa/dao/LeaveDao.java
+END
+TestAuditDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/gs_mis/!svn/ver/22/jeesite/src/main/java/com/thinkgem/jeesite/modules/oa/dao/TestAuditDao.java
+END
+OaNotifyDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/gs_mis/!svn/ver/22/jeesite/src/main/java/com/thinkgem/jeesite/modules/oa/dao/OaNotifyDao.java
+END
+OaNotifyRecordDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/gs_mis/!svn/ver/22/jeesite/src/main/java/com/thinkgem/jeesite/modules/oa/dao/OaNotifyRecordDao.java
+END

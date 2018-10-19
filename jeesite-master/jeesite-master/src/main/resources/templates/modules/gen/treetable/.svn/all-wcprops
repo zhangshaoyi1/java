@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/templates/modules/gen/treetable
+END
+viewForm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/templates/modules/gen/treetable/viewForm.xml
+END
+controller.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/templates/modules/gen/treetable/controller.xml
+END
+mapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/templates/modules/gen/treetable/mapper.xml
+END
+dao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/templates/modules/gen/treetable/dao.xml
+END
+entity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/templates/modules/gen/treetable/entity.xml
+END
+viewList.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/templates/modules/gen/treetable/viewList.xml
+END
+service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/templates/modules/gen/treetable/service.xml
+END

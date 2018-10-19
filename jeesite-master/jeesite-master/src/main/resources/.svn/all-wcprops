@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources
+END
+jeesite.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/jeesite.properties
+END
+mybatis-refresh.properties
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mybatis-refresh.properties
+END
+stencilset.json
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/stencilset.json
+END
+spring-mvc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/spring-mvc.xml
+END
+mybatis-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mybatis-config.xml
+END
+errors.properties
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/errors.properties
+END
+spring-context-activiti.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/spring-context-activiti.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/log4j.properties
+END
+spring-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/spring-context.xml
+END
+spring-context-shiro.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/spring-context-shiro.xml
+END
+spring-context-jedis.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/spring-context-jedis.xml
+END

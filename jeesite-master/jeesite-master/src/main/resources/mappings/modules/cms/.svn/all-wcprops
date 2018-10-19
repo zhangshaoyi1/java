@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/cms
+END
+LinkDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/cms/LinkDao.xml
+END
+SiteDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/cms/SiteDao.xml
+END
+ArticleDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/cms/ArticleDao.xml
+END
+GuestbookDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/cms/GuestbookDao.xml
+END
+ArticleDataDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/cms/ArticleDataDao.xml
+END
+CommentDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/cms/CommentDao.xml
+END
+CategoryDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/mappings/modules/cms/CategoryDao.xml
+END

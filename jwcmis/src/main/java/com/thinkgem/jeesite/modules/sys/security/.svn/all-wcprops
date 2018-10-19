@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/modules/sys/security
+END
+SystemAuthorizingRealm.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/modules/sys/security/SystemAuthorizingRealm.java
+END
+UsernamePasswordToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/modules/sys/security/UsernamePasswordToken.java
+END
+FormAuthenticationFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/modules/sys/security/FormAuthenticationFilter.java
+END

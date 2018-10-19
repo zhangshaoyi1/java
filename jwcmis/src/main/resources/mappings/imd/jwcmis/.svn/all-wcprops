@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jwc_mis/!svn/ver/15/src/main/resources/mappings/imd/jwcmis
+END
+ResearchDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jwc_mis/!svn/ver/13/src/main/resources/mappings/imd/jwcmis/ResearchDao.xml
+END
+StudentDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/jwc_mis/!svn/ver/17/src/main/resources/mappings/imd/jwcmis/StudentDao.xml
+END
+ExpertDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/jwc_mis/!svn/ver/15/src/main/resources/mappings/imd/jwcmis/ExpertDao.xml
+END
+MajorDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/jwc_mis/!svn/ver/15/src/main/resources/mappings/imd/jwcmis/MajorDao.xml
+END
+ReviewResultDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/jwc_mis/!svn/ver/13/src/main/resources/mappings/imd/jwcmis/ReviewResultDao.xml
+END
+InstituteDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jwc_mis/!svn/ver/15/src/main/resources/mappings/imd/jwcmis/InstituteDao.xml
+END
+DistributeDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/jwc_mis/!svn/ver/13/src/main/resources/mappings/imd/jwcmis/DistributeDao.xml
+END
+DistributeResultDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jwc_mis/!svn/ver/13/src/main/resources/mappings/imd/jwcmis/DistributeResultDao.xml
+END
+PhoneDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/jwc_mis/!svn/ver/13/src/main/resources/mappings/imd/jwcmis/PhoneDao.xml
+END
+AccountDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/jwc_mis/!svn/ver/13/src/main/resources/mappings/imd/jwcmis/AccountDao.xml
+END
+EmailDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/jwc_mis/!svn/ver/13/src/main/resources/mappings/imd/jwcmis/EmailDao.xml
+END
+ThesisDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/jwc_mis/!svn/ver/13/src/main/resources/mappings/imd/jwcmis/ThesisDao.xml
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence
+END
+Page.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/Page.java
+END
+DataEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/DataEntity.java
+END
+Parameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/Parameter.java
+END
+ActEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/ActEntity.java
+END
+BaseEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/BaseEntity.java
+END
+CrudDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/CrudDao.java
+END
+MapperLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/MapperLoader.java
+END
+TreeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/TreeDao.java
+END
+BaseDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/BaseDao.java
+END
+TreeEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/TreeEntity.java
+END

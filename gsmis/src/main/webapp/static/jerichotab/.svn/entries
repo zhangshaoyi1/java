@@ -1,0 +1,71 @@
+10
+
+dir
+166
+http://47.93.46.30:8088/svn/gs_mis/src/main/webapp/static/jerichotab
+http://47.93.46.30:8088/svn/gs_mis
+
+
+
+2018-08-13T08:02:21.582626Z
+30
+cgq
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1aecbb91-7e8b-674f-89a2-faf668360340
+
+css
+dir
+
+images
+dir
+
+index.html
+file
+
+
+
+
+2018-08-30T06:41:10.482000Z
+d31e7ed1fbd2e11db8540ffb95a9855a
+2018-08-13T08:02:21.582626Z
+30
+cgq
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8462
+
+js
+dir
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gs_mis/!svn/ver/26/jeesite/src/main/java/com/thinkgem/jeesite/common/service
+END
+ServiceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/gs_mis/!svn/ver/26/jeesite/src/main/java/com/thinkgem/jeesite/common/service/ServiceException.java
+END
+CrudService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/gs_mis/!svn/ver/26/jeesite/src/main/java/com/thinkgem/jeesite/common/service/CrudService.java
+END
+TreeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/gs_mis/!svn/ver/26/jeesite/src/main/java/com/thinkgem/jeesite/common/service/TreeService.java
+END
+BaseService.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/gs_mis/!svn/ver/26/jeesite/src/main/java/com/thinkgem/jeesite/common/service/BaseService.java
+END

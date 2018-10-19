@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/dialect/db
+END
+HSQLDialect.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/dialect/db/HSQLDialect.java
+END
+SybaseDialect.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/dialect/db/SybaseDialect.java
+END
+DerbyDialect.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/dialect/db/DerbyDialect.java
+END
+H2Dialect.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/dialect/db/H2Dialect.java
+END
+OracleDialect.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/dialect/db/OracleDialect.java
+END
+SQLServerDialect.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/dialect/db/SQLServerDialect.java
+END
+MySQLDialect.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/dialect/db/MySQLDialect.java
+END
+DB2Dialect.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/dialect/db/DB2Dialect.java
+END
+PostgreSQLDialect.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/dialect/db/PostgreSQLDialect.java
+END
+SQLServer2005Dialect.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/common/persistence/dialect/db/SQLServer2005Dialect.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gs_mis/!svn/ver/30/src/main/resources/templates/modules/gen/curd
+END
+viewFormMany.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/30/src/main/resources/templates/modules/gen/curd/viewFormMany.xml
+END
+viewForm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gs_mis/!svn/ver/30/src/main/resources/templates/modules/gen/curd/viewForm.xml
+END
+controller.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/gs_mis/!svn/ver/30/src/main/resources/templates/modules/gen/curd/controller.xml
+END
+viewList.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gs_mis/!svn/ver/30/src/main/resources/templates/modules/gen/curd/viewList.xml
+END
+serviceMany.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/30/src/main/resources/templates/modules/gen/curd/serviceMany.xml
+END
+service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gs_mis/!svn/ver/30/src/main/resources/templates/modules/gen/curd/service.xml
+END

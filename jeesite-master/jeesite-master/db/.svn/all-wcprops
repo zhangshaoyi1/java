@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/gs_mis/!svn/ver/6/jeesite/db
+END
+init-db.bat
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/gs_mis/!svn/ver/18/jeesite/db/init-db.bat
+END
+jeesite_mysql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/gs_mis/!svn/ver/20/jeesite/db/jeesite_mysql.sql
+END

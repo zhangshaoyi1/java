@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/gs_mis/!svn/ver/17/jeesite/db/gen
+END
+example_mssql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/gs_mis/!svn/ver/17/jeesite/db/gen/example_mssql.sql
+END
+example_oracle.sql
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/gs_mis/!svn/ver/17/jeesite/db/gen/example_oracle.sql
+END
+jeesite.erm
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/gs_mis/!svn/ver/17/jeesite/db/gen/jeesite.erm
+END
+jeesite_mysql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/gs_mis/!svn/ver/17/jeesite/db/gen/jeesite_mysql.sql
+END
+jeesite-gen.xls
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/gs_mis/!svn/ver/17/jeesite/db/gen/jeesite-gen.xls
+END
+jeesite_mssql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/gs_mis/!svn/ver/17/jeesite/db/gen/jeesite_mssql.sql
+END
+jeesite_oracle.sql
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/gs_mis/!svn/ver/17/jeesite/db/gen/jeesite_oracle.sql
+END
+example_mysql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/gs_mis/!svn/ver/17/jeesite/db/gen/example_mysql.sql
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/entity
+END
+ArticleData.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/entity/ArticleData.java
+END
+Comment.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/entity/Comment.java
+END
+Category.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/entity/Category.java
+END
+Link.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/entity/Link.java
+END
+Site.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/entity/Site.java
+END
+Article.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/entity/Article.java
+END
+FileTpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/entity/FileTpl.java
+END
+Guestbook.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/entity/Guestbook.java
+END

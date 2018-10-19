@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/cache
+END
+ehcache-local.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/cache/ehcache-local.xml
+END
+ehcache-rmi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/cache/ehcache-rmi.xml
+END

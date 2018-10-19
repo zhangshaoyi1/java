@@ -1,0 +1,178 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ include file="/WEB-INF/views/include/taglib.jsp"%>
+<html>
+<head>
+	<title>论文信息管理</title>
+	<meta name="decorator" content="default"/>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#btnExport").click(function(){
+		top.$.jBox.confirm("确认要修改所选论文的状态吗？","系统提示",function(v,h,f){
+			if(v=="ok"){
+				var documentIds = "";
+				$("input[name='documentId']:checked").each(  
+						function(){
+							if($(this).val() != "undefined"){
+								documentIds += $(this).val() + ",";
+							}
+						}
+					)
+				if(documentIds==""){
+					top.$.jBox.confirm("请选择需要修改的论文！","系统提示");
+					return;
+				}
+				$("#searchForm").attr("action","${ctx}/gsmis/thesis/pingshenAll?documentIds="+documentIds);
+				$("#searchForm").submit();
+			}
+		},{buttonsFocus:1});
+		top.$('.jbox-body .jbox-icon').css('top','55px');
+	});
+});
+function selectall(){
+	if($('input[name="documentId"]').get(0).checked){
+		$('input[name="documentId"]').attr("checked",false); 
+	}else{
+		$('input[name="documentId"]').attr("checked",true); 
+	}
+}
+		$(document).ready(function() {
+			$("#btnImport").click(function(){
+				$.jBox($("#importBox").html(), {title:"导入数据", buttons:{"关闭":true}, 
+					bottomText:"导入文件不能超过5M，仅允许导入“xls”或“xlsx”格式文件！"});
+			});
+		});
+		function page(n,s){
+			$("#pageNo").val(n);
+			$("#pageSize").val(s);
+			$("#searchForm").submit();
+        	return false;
+        }
+	</script>
+</head>
+<body>
+	<!-- 修改begin -->
+   <div id="importBox" class="hide">
+		<form id="importForm" action="${ctx}/gsmis/thesis/import" method="post" enctype="multipart/form-data"
+			class="form-search" style="padding-left:20px;text-align:center;" onsubmit="loading('正在导入，请稍等...');"><br/>
+			<input id="uploadFile" name="file" type="file" style="width:330px"/><br/><br/>　　
+			<input id="btnImportSubmit" class="btn btn-primary" type="submit" value="   导    入   "/>
+			<a href="${ctx}/gsmis/thesis/import/template">下载模板</a>
+		</form>
+	</div>
+	<!-- 修改结束 -->
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="${ctx}/gsmis/thesis/">论文信息列表</a></li>
+		<shiro:hasPermission name="gsmis:thesis:edit"><li><a href="${ctx}/gsmis/thesis/form">论文信息添加</a></li></shiro:hasPermission>
+	</ul>
+	<form:form id="searchForm" modelAttribute="thesis" action="${ctx}/gsmis/thesis/" method="post" class="breadcrumb form-search">
+		<input id="pageNo" name="pageNo" type="hidden" value="${page.pageNo}"/>
+		<input id="pageSize" name="pageSize" type="hidden" value="${page.pageSize}"/>
+		<ul class="ul-form">
+			<li><label>审评单位：</label>
+				<form:input path="reviewdepart" htmlEscape="false" maxlength="64" class="input-medium"/>
+			</li>
+			<li><label>截止时间：</label>
+				<input name="reviewdeadline" type="text" readonly="readonly" maxlength="20" class="input-medium Wdate"
+					value="<fmt:formatDate value="${thesis.reviewdeadline}" pattern="yyyy-MM-dd"/>"
+					onclick="WdatePicker({dateFmt:'yyyy-MM-dd',isShowClear:false});"/>
+			</li>
+			<li><label>学号：</label>
+				<form:input path="studentid" htmlEscape="false" maxlength="20" class="input-medium"/>
+			</li>
+			<li><label>硕士名：</label>
+				<form:input path="mastername" htmlEscape="false" maxlength="20" class="input-medium"/>
+			</li>
+			<li><label>专业：</label>
+				<form:select path="major" class="input-xlarge required">
+					<form:option value="" label="请选择专业"/>
+					<form:options items="${majors}" itemLabel="name" itemValue="name" htmlEscape="false"/>
+				</form:select>
+			</li>
+			<li>
+			<label>论文状态</label>
+				<form:radiobuttons path="status" items="${fns:getDictList('thesisStatus')}" itemLabel="label" itemValue="value" htmlEscape="false"/>
+			</li>
+			<li class="btns">
+				<input id="btnSubmit" class="btn btn-primary" type="submit" value="查询"/>
+				<input id="btnImport" class="btn btn-primary" type="button" value="导入"/>
+				<input id="btnExport" class="btn btn-primary" type="button" value="一键评审"/>
+			</li>
+			<li class="clearfix"></li>
+		</ul>
+	</form:form>
+	<sys:message content="${message}"/>
+	<table id="contentTable" class="table table-striped table-bordered table-condensed">
+		<thead>
+			<tr>
+				<th style="text-align:center;"><a style="cursor:pointer;" onclick="selectall()">全选</a></th>
+				<th>审评单位</th>
+				<th>审评截止时间</th>
+				<th>学号</th>
+				<th>硕士名</th>
+				<th>导师</th>
+				<th>论文编号</th>
+				<th>专业</th>
+				<th>论文主题</th>
+				<th>关键字</th>
+				<th>论文分配评审状态</th>
+				<th>网址</th>
+				<th>更新时间</th>
+				<th>备注信息</th>
+				<shiro:hasPermission name="gsmis:thesis:edit"><th>操作</th></shiro:hasPermission>
+			</tr>
+		</thead>
+		<tbody>
+		<c:forEach items="${page.list}" var="thesis">
+			<tr>
+				<td style="text-align:center;"><input type="checkbox" name="documentId" value="${thesis.id}"/></td>
+				<td><a href="${ctx}/gsmis/thesis/form?id=${thesis.id}">
+					${thesis.reviewdepart}
+				</a></td>
+				<td>
+					<fmt:formatDate value="${thesis.reviewdeadline}" pattern="yyyy-MM-dd"/>
+				</td>
+				<td>
+					${thesis.studentid}
+				</td>
+				<td>
+					${thesis.mastername}
+				</td>
+				<td>
+					${thesis.supervisor}
+				</td>
+				<td>
+					${thesis.thesisnumber}
+				</td>
+				<td>
+					${thesis.major}
+				</td>
+				<td>
+					${thesis.topic}
+				</td>
+				<td>
+					${thesis.keywords}
+				</td>
+				<td>
+					${fns:getDictLabel(thesis.status, 'thesisStatus', '')}
+				</td>
+				<td>
+					${thesis.url}
+				</td>
+				<td>
+					<fmt:formatDate value="${thesis.updateDate}" pattern="yyyy-MM-dd HH:mm:ss"/>
+				</td>
+				<td>
+					${thesis.remarks}
+				</td>
+				<shiro:hasPermission name="gsmis:thesis:edit"><td>
+					<a href="${ctx}/gsmis/thesis/pingshen?id=${thesis.id}">评审</a>
+    				<a href="${ctx}/gsmis/thesis/form?id=${thesis.id}">修改</a>
+					<a href="${ctx}/gsmis/thesis/delete?id=${thesis.id}" onclick="return confirmx('确认要删除该论文信息吗？', this.href)">删除</a>
+				</td></shiro:hasPermission>
+			</tr>
+		</c:forEach>
+		</tbody>
+	</table>
+	<div class="pagination">${page}</div>
+</body>
+</html>

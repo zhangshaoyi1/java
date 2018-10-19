@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/tags/cms
+END
+frontCategoryList.tag
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/tags/cms/frontCategoryList.tag
+END
+frontArticleHitsTop.tag
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/tags/cms/frontArticleHitsTop.tag
+END
+frontCurrentPosition.tag
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/WEB-INF/tags/cms/frontCurrentPosition.tag
+END

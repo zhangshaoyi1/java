@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.ccnu.imd.gsmis.dao.ExpertDao">
+    
+	<sql id="expertColumns">
+		
+		a.id AS "id",
+		a.expertname AS "expertname",
+		
+		b.name AS "major",
+		
+		a.researchname AS "researchname",
+		a.distributeNum AS "distributeNum",
+				
+		s.label AS "expertType" ,
+		
+		a.email AS "email",
+		a.phone AS "phone",
+		a.bankcardnumber AS "bankcardnumber",
+		a.place AS "place",
+		a.create_by AS "createBy.id",
+		a.create_date AS "createDate",
+		a.update_by AS "updateBy.id",
+		a.update_date AS "updateDate",
+		a.remarks AS "remarks",
+		a.del_flag AS "delFlag"
+	</sql>
+	
+	<sql id="expertJoins">
+		LEFT JOIN sys_dict s ON s.value = a.expertType AND s.type = 'expertType'
+		LEFT JOIN major b ON b.id = a.major
+		
+	</sql>
+    
+	<select id="get" resultType="Expert">
+		SELECT 
+			<include refid="expertColumns"/>
+		FROM expert a
+		<include refid="expertJoins"/>
+		WHERE a.id = #{id} AND s.type = 'expertType'
+		
+	</select>
+	
+	<select id="findList" resultType="Expert">
+		SELECT 
+			<include refid="expertColumns"/>
+		FROM expert a
+		<include refid="expertJoins"/>
+		<where>
+			a.del_flag = #{DEL_FLAG_NORMAL}
+			<!-- <if test="expertname != null and expertname != ''">
+				AND a.expertname LIKE 
+					<if test="dbName == 'oracle'">'%'||#{expertname}||'%'</if>
+					<if test="dbName == 'mssql'">'%'+#{expertname}+'%'</if>
+					<if test="dbName == 'mysql'">concat('%',#{expertname},'%')</if>
+			</if> -->
+			<if test="major != null and major != ''">
+				AND a.major = #{major}
+			</if>
+			<if test="researchname != null and researchname != ''">
+				AND a.researchname = #{researchname}
+			</if>
+			AND s.type = 'expertType'
+		</where>
+		<choose>
+			<when test="page !=null and page.orderBy != null and page.orderBy != ''">
+				ORDER BY ${page.orderBy}
+			</when>
+			<otherwise>
+				ORDER BY a.update_date DESC
+			</otherwise>
+		</choose>
+	</select>
+	
+	<select id="findAllList" resultType="Expert">
+		SELECT 
+			<include refid="expertColumns"/>
+		FROM expert a
+		<include refid="expertJoins"/>
+		<where>
+			a.del_flag = #{DEL_FLAG_NORMAL}
+		</where>		
+		<choose>
+			<when test="page !=null and page.orderBy != null and page.orderBy != ''">
+				ORDER BY ${page.orderBy}
+			</when>
+			<otherwise>
+				ORDER BY a.update_date DESC
+			</otherwise>
+		</choose>
+	</select>
+	
+	<insert id="insert">
+		INSERT INTO expert(
+			id,
+			expertname,
+			major,
+			researchname,
+			distributeNum,
+			expertType,
+			email,
+			phone,
+			bankcardnumber,
+			place,
+			create_by,
+			create_date,
+			update_by,
+			update_date,
+			remarks,
+			del_flag
+		) VALUES (
+			#{id},
+			#{expertname},
+			#{major},
+			#{researchname},
+			#{distributeNum},
+			#{expertType},
+			#{email},
+			#{phone},
+			#{bankcardnumber},
+			#{place},
+			#{createBy.id},
+			#{createDate},
+			#{updateBy.id},
+			#{updateDate},
+			#{remarks},
+			#{delFlag}
+		)
+	</insert>
+	
+	<update id="update">
+		UPDATE expert SET 	
+			expertname = #{expertname},
+			major = #{major},
+			researchname = #{researchname},
+			distributeNum = #{distributeNum},
+			expertType = #{expertType},
+			email = #{email},
+			phone = #{phone},
+			bankcardnumber = #{bankcardnumber},
+			place = #{place},
+			update_by = #{updateBy.id},
+			update_date = #{updateDate},
+			remarks = #{remarks}
+		WHERE id = #{id}
+	</update>
+	
+	<update id="delete">
+		UPDATE expert SET 
+			del_flag = #{DEL_FLAG_DELETE}
+		WHERE id = #{id}
+	</update>
+	
+</mapper>

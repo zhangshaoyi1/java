@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/modules/gen/service
+END
+GenSchemeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/modules/gen/service/GenSchemeService.java
+END
+GenTemplateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/modules/gen/service/GenTemplateService.java
+END
+GenTableService.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/jwc_mis/!svn/ver/1/src/main/java/com/thinkgem/jeesite/modules/gen/service/GenTableService.java
+END

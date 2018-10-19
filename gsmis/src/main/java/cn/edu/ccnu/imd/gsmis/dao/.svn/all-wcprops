@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gs_mis/!svn/ver/160/src/main/java/cn/edu/ccnu/imd/gsmis/dao
+END
+MajorDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/160/src/main/java/cn/edu/ccnu/imd/gsmis/dao/MajorDao.java
+END
+ExpertDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/82/src/main/java/cn/edu/ccnu/imd/gsmis/dao/ExpertDao.java
+END
+ResearchDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gs_mis/!svn/ver/117/src/main/java/cn/edu/ccnu/imd/gsmis/dao/ResearchDao.java
+END
+ThesisDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/81/src/main/java/cn/edu/ccnu/imd/gsmis/dao/ThesisDao.java
+END
+EmailDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gs_mis/!svn/ver/34/src/main/java/cn/edu/ccnu/imd/gsmis/dao/EmailDao.java
+END
+AccountDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/gs_mis/!svn/ver/101/src/main/java/cn/edu/ccnu/imd/gsmis/dao/AccountDao.java
+END
+DistributeResultDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gs_mis/!svn/ver/75/src/main/java/cn/edu/ccnu/imd/gsmis/dao/DistributeResultDao.java
+END
+PhoneDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gs_mis/!svn/ver/34/src/main/java/cn/edu/ccnu/imd/gsmis/dao/PhoneDao.java
+END
+DistributeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gs_mis/!svn/ver/47/src/main/java/cn/edu/ccnu/imd/gsmis/dao/DistributeDao.java
+END

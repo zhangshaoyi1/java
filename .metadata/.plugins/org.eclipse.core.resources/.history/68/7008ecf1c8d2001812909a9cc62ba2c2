@@ -1,0 +1,11 @@
+package java_io;
+
+class copytext {
+	/**
+	 * 纯文本拷贝
+	 * @param soursePath 文件来源
+	 * @param destinationPath 文件目的地
+	 */
+	public static void copytext(String soursePath,String destinationPath) {}
+
+}

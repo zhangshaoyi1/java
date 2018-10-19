@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/gs_mis/!svn/ver/30/db/act/drop
+END
+activiti.oracle.drop.engine.sql
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.oracle.drop.engine.sql
+END
+activiti.mysql.drop.identity.sql
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.mysql.drop.identity.sql
+END
+activiti.hsql.drop.identity.sql
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.hsql.drop.identity.sql
+END
+activiti.mysql.drop.engine.sql
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.mysql.drop.engine.sql
+END
+activiti.h2.drop.identity.sql
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.h2.drop.identity.sql
+END
+activiti.hsql.drop.engine.sql
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.hsql.drop.engine.sql
+END
+activiti.mssql.drop.identity.sql
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.mssql.drop.identity.sql
+END
+activiti.h2.drop.history.sql
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.h2.drop.history.sql
+END
+activiti.mssql.drop.history.sql
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.mssql.drop.history.sql
+END
+activiti.h2.drop.engine.sql
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.h2.drop.engine.sql
+END
+activiti.mssql.drop.engine.sql
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.mssql.drop.engine.sql
+END
+activiti.hsql.drop.history.sql
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.hsql.drop.history.sql
+END
+activiti.mysql.drop.history.sql
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.mysql.drop.history.sql
+END
+activiti.db2.drop.identity.sql
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.db2.drop.identity.sql
+END
+activiti.oracle.drop.history.sql
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.oracle.drop.history.sql
+END
+activiti.postgres.drop.identity.sql
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.postgres.drop.identity.sql
+END
+activiti.db2.drop.engine.sql
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.db2.drop.engine.sql
+END
+activiti.postgres.drop.engine.sql
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.postgres.drop.engine.sql
+END
+activiti.postgres.drop.history.sql
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.postgres.drop.history.sql
+END
+activiti.oracle.drop.identity.sql
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.oracle.drop.identity.sql
+END
+activiti.db2.drop.history.sql
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gs_mis/!svn/ver/30/db/act/drop/activiti.db2.drop.history.sql
+END

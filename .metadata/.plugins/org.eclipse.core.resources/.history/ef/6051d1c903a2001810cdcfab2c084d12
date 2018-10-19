@@ -1,0 +1,52 @@
+/**
+ * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ */
+package cn.edu.ccnu.imd.gsmis.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.thinkgem.jeesite.common.persistence.Page;
+import com.thinkgem.jeesite.common.service.CrudService;
+
+import cn.edu.ccnu.imd.gsmis.entity.Distribute;
+import cn.edu.ccnu.imd.gsmis.entity.Expert;
+import cn.edu.ccnu.imd.gsmis.service.ExpertService;
+import cn.edu.ccnu.imd.gsmis.dao.DistributeDao;
+
+/**
+ * 论文分配管理Service
+ * @author zjy
+ * @version 2018-08-14
+ */
+@Service
+@Transactional(readOnly = true)
+public class DistributeService extends CrudService<DistributeDao, Distribute> {
+
+	public Distribute get(String id) {
+		return super.get(id);
+	}
+	
+	public List<Distribute> findList(Distribute distribute) {
+		return super.findList(distribute);
+	}
+	
+	public Page<Distribute> findPage(Page<Distribute> page, Distribute distribute) {
+		return super.findPage(page, distribute);
+	}
+	
+	@Transactional(readOnly = false)
+	public void save(Distribute distribute) {
+		super.save(distribute);
+	}
+	
+	@Transactional(readOnly = false)
+	public void delete(Distribute distribute) {
+		super.delete(distribute);
+	}
+	
+	
+	
+}

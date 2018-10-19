@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/gateway
+END
+parallel.png
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/gateway/parallel.png
+END
+eventbased.png
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/gateway/eventbased.png
+END
+exclusive.databased.png
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/gateway/exclusive.databased.png
+END
+inclusive.png
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/gs_mis/!svn/ver/24/jeesite/src/main/webapp/act/process-editor/editor-app/stencilsets/bpmn2.0/icons/gateway/inclusive.png
+END

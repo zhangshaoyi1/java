@@ -1,0 +1,11 @@
+package java_io;
+
+class copyFile1 {
+	/**
+	 * 拷贝文件
+	 */
+	public static void copy(String soursePath,String destinationPath) {
+		//选择源
+		
+	}
+}

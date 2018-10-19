@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/service/cmd
+END
+ModelDeployProcessDefinitionCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/service/cmd/ModelDeployProcessDefinitionCmd.java
+END
+JumpTaskCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/service/cmd/JumpTaskCmd.java
+END
+CreateAndTakeTransitionCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/gs_mis/!svn/ver/25/jeesite/src/main/java/com/thinkgem/jeesite/modules/act/service/cmd/CreateAndTakeTransitionCmd.java
+END

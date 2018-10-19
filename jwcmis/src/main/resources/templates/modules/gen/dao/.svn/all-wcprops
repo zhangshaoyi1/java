@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jwc_mis/!svn/ver/1/src/main/resources/templates/modules/gen/dao
+END
+mapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jwc_mis/!svn/ver/1/src/main/resources/templates/modules/gen/dao/mapper.xml
+END
+dao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/jwc_mis/!svn/ver/1/src/main/resources/templates/modules/gen/dao/dao.xml
+END
+entity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/jwc_mis/!svn/ver/1/src/main/resources/templates/modules/gen/dao/entity.xml
+END

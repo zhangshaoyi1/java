@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/gs_mis/!svn/ver/30/src/main/resources/templates/modules/gen/treetable
+END
+viewForm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gs_mis/!svn/ver/30/src/main/resources/templates/modules/gen/treetable/viewForm.xml
+END
+controller.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gs_mis/!svn/ver/30/src/main/resources/templates/modules/gen/treetable/controller.xml
+END
+mapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/30/src/main/resources/templates/modules/gen/treetable/mapper.xml
+END
+dao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gs_mis/!svn/ver/30/src/main/resources/templates/modules/gen/treetable/dao.xml
+END
+entity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/30/src/main/resources/templates/modules/gen/treetable/entity.xml
+END
+viewList.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gs_mis/!svn/ver/30/src/main/resources/templates/modules/gen/treetable/viewList.xml
+END
+service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gs_mis/!svn/ver/30/src/main/resources/templates/modules/gen/treetable/service.xml
+END

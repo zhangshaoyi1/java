@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/dao
+END
+ArticleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/dao/ArticleDao.java
+END
+SiteDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/dao/SiteDao.java
+END
+LinkDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/dao/LinkDao.java
+END
+CategoryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/dao/CategoryDao.java
+END
+CommentDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/dao/CommentDao.java
+END
+ArticleDataDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/dao/ArticleDataDao.java
+END
+GuestbookDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/java/com/thinkgem/jeesite/modules/cms/dao/GuestbookDao.java
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/diagram-viewer/js
+END
+textlayout.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/diagram-viewer/js/textlayout.js
+END
+ActivitiRest.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/diagram-viewer/js/ActivitiRest.js
+END
+Color.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/diagram-viewer/js/Color.js
+END
+jstools.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/diagram-viewer/js/jstools.js
+END
+raphael.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/diagram-viewer/js/raphael.js
+END
+Polyline.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/diagram-viewer/js/Polyline.js
+END
+ActivityImpl.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/diagram-viewer/js/ActivityImpl.js
+END
+LineBreakMeasurer.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/diagram-viewer/js/LineBreakMeasurer.js
+END
+ProcessDiagramGenerator.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/diagram-viewer/js/ProcessDiagramGenerator.js
+END
+ProcessDiagramCanvas.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/diagram-viewer/js/ProcessDiagramCanvas.js
+END
+raphael.2.1.1.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/diagram-viewer/js/raphael.2.1.1.js
+END
+raphael_uncompressed.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gs_mis/!svn/ver/30/src/main/webapp/act/diagram-viewer/js/raphael_uncompressed.js
+END

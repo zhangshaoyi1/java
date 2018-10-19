@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/templates/modules/gen/curd
+END
+viewFormMany.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/templates/modules/gen/curd/viewFormMany.xml
+END
+viewForm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/templates/modules/gen/curd/viewForm.xml
+END
+controller.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/templates/modules/gen/curd/controller.xml
+END
+viewList.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/templates/modules/gen/curd/viewList.xml
+END
+serviceMany.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/templates/modules/gen/curd/serviceMany.xml
+END
+service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gs_mis/!svn/ver/17/jeesite/src/main/resources/templates/modules/gen/curd/service.xml
+END

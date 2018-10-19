@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/gs_mis/!svn/ver/5/jeesite/bin
+END
+clean.bat
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/gs_mis/!svn/ver/5/jeesite/bin/clean.bat
+END
+versions.bat
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/gs_mis/!svn/ver/5/jeesite/bin/versions.bat
+END
+run-jetty.bat
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/gs_mis/!svn/ver/5/jeesite/bin/run-jetty.bat
+END
+run-tomcat6.bat
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/gs_mis/!svn/ver/5/jeesite/bin/run-tomcat6.bat
+END
+cleanide.bat
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/gs_mis/!svn/ver/5/jeesite/bin/cleanide.bat
+END
+run-tomcat7.bat
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/gs_mis/!svn/ver/5/jeesite/bin/run-tomcat7.bat
+END
+package.bat
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/gs_mis/!svn/ver/5/jeesite/bin/package.bat
+END
+deploy.bat
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/gs_mis/!svn/ver/5/jeesite/bin/deploy.bat
+END
+eclipse.bat
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/gs_mis/!svn/ver/5/jeesite/bin/eclipse.bat
+END
