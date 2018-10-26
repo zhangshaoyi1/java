@@ -1,0 +1,5 @@
+package splider.interfaces;
+
+public interface IChapterDetailSpider {
+
+}

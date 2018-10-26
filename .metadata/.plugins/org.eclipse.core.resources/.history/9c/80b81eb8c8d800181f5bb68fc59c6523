@@ -1,0 +1,14 @@
+package splider.impl;
+
+import splider.entitys.ChapterDetail;
+import splider.interfaces.IChapterDetailSpider;
+
+public class AbstrictChapterDetailSpidet implements IChapterDetailSpider{
+
+	@Override
+	public ChapterDetail getChapterDetail(String url) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package splider;
+
+public enum NovelSiteEnum {
+
+}

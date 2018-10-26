@@ -1,7 +1,0 @@
-package splider.entitys;
-
-import java.io.Serializable;
-
-public class Chapter implements Serializable {
-
-}

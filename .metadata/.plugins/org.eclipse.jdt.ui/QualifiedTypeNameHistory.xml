@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.thinkgem.jeesite.test.service.TestStationService"/>
-<fullyQualifiedTypeName name="com.thinkgem.jeesite.test.entity.TestStation"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
-<fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
-<fullyQualifiedTypeName name="com.thinkgem.jeesite.common.utils.excel.ImportExcel"/>
-<fullyQualifiedTypeName name="javax.validation.ConstraintViolationException"/>
 <fullyQualifiedTypeName name="com.thinkgem.jeesite.common.beanvalidator.BeanValidators"/>
 <fullyQualifiedTypeName name="com.google.common.collect.Lists"/>
 <fullyQualifiedTypeName name="com.thinkgem.jeesite.common.utils.excel.ExportExcel"/>
@@ -24,8 +18,6 @@
 <fullyQualifiedTypeName name="cn.edu.ccnu.imd.gsmis.entity.Account"/>
 <fullyQualifiedTypeName name="cn.edu.ccnu.imd.gsmis.service.DistributeResultService"/>
 <fullyQualifiedTypeName name="javax.swing.text.Document"/>
-<fullyQualifiedTypeName name="org.jsoup.nodes.Document"/>
-<fullyQualifiedTypeName name="org.jsoup.Jsoup"/>
 <fullyQualifiedTypeName name="org.jsoup.nodes.Document.OutputSettings"/>
 <fullyQualifiedTypeName name="org.jsoup.safety.Whitelist"/>
 <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
@@ -57,4 +49,15 @@
 <fullyQualifiedTypeName name="java.io.Writer"/>
 <fullyQualifiedTypeName name="java.io.FileReader"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="splider.interfaces.util.NovelSpiderUtil"/>
+<fullyQualifiedTypeName name="org.jsoup.helper.StringUtil"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang.StringUtils"/>
+<fullyQualifiedTypeName name="splider.entitys.ChapterDetail"/>
+<fullyQualifiedTypeName name="org.jsoup.Jsoup"/>
+<fullyQualifiedTypeName name="splider.NovelSiteEnum"/>
+<fullyQualifiedTypeName name="org.jsoup.nodes.Document"/>
+<fullyQualifiedTypeName name="splider.util.NovelSpiderUtil"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="splider.impl.DefaultChapterDetailSpider"/>
+<fullyQualifiedTypeName name="splider.interfaces.IChapterDetailSpider"/>
 </qualifiedTypeNameHistroy>

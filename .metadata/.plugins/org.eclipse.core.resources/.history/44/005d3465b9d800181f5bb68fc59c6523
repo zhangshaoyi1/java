@@ -1,0 +1,5 @@
+package splider.interfaces.util;
+
+public final class NovelSpiderUtil {
+
+}

@@ -1,0 +1,18 @@
+package splider.impl;
+
+import splider.entitys.ChapterDetail;
+import splider.interfaces.IChapterDetailSpider;
+
+public class AbstrictChapterDetailSpidet extends AbstractSpider implements IChapterDetailSpider{
+
+	@Override
+	public ChapterDetail getChapterDetail(String url) {
+		try {
+			String result = super.crawl(url);
+		} catch (Exception e) {
+			throw new RuntimeException(e);
+		}
+		return null;
+	}
+
+}

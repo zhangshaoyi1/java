@@ -1,9 +1,0 @@
-package splider.interfaces;
-/**
- * 
- * @author ZSY
- *
- */
-public interface iChapterSpider {
-	public List<Chapter> getsChapter(String url);
-}

@@ -1,5 +1,0 @@
-package splider.interfaces;
-
-public interface iChapterSpider {
-
-}

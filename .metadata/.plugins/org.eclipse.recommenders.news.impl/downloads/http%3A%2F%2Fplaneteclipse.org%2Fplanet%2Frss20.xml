@@ -8,6 +8,304 @@
 	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
 
 <item>
+	<title>Tom Schindl: Building dynamic Java Module System layers to integrate JavaFX 11 in Equinox</title>
+	<guid isPermaLink="false">http://tomsondev.bestsolution.at/?p=5126</guid>
+	<link>https://tomsondev.bestsolution.at/2018/10/24/building-dyamic-java-module-system-layers-to-integrate-javafx-11-in-equinox/</link>
+	<description>&lt;p&gt;One of the most fundamental features of the &lt;a href=&quot;http://efxclipse.org/&quot;&gt;e(fx)clipse&lt;/a&gt; runtime is to integrate JavaFX into the Equinox OSGi-Container and even a running Eclipse IDE.&lt;/p&gt;
+&lt;p&gt;We currently support the following setups:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JavaFX 8&lt;/li&gt;
+&lt;li&gt;JavaFX 9/10&lt;/li&gt;
+&lt;li&gt;JavaFX 11&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and the integration for all those versions is a bit different. I don’t want to go into details but starting with JavaFX-11 we need to spin up a new Java-Module-System-Layer at runtime because we can not assume JavaFX being part of the JRE running your OSGi-Container (Eclipse IDE).&lt;/p&gt;
+&lt;p&gt;Since JavaFX-9 we spin up a dynamic layer to implement JavaFX-SWT-Integration and we adapted that logic for JavaFX-11 to load all JavaFX-11 modules. &lt;/p&gt;
+&lt;p&gt;The code we have works like this  and it works prefectly fine until someone like &lt;a href=&quot;http://fxexperience.com/controlsfx/&quot;&gt;ControlsFX&lt;/a&gt; comes along and does not play by the rules trying to load classes from unexported packages like &lt;strong&gt;com.sun.javafx.runtime.VersionInfo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The standard answer from ControlsFX to fix that problem temporarily is to force the module-system to export them using &lt;strong&gt;–add-exports=javafx.base/com.sun.javafx.runtime=ALL-UNNAMED&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;Unfortunately this workaround does not work in our case because the command-line flag only allows to modify modules of the Boot-Layer but not those created in dynamic ones like those we construct inside our JavaFX-OSGi integration.&lt;/p&gt;
+&lt;p&gt;I was investigating yesterday how one could fix this problem but could not come up with a good solution (one that does not call into internals of the module system) until I tweeted &lt;/p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;so @&lt;a href=&quot;https://twitter.com/java&quot;&gt;java&lt;/a&gt; experts following - one can modify modules of the boot-layer (eg --add-exports,..) but if one constructs a… &lt;a href=&quot;https://twitter.com/i/web/status/1054854038456598530&quot;&gt; twitter.com/i/web/status/1…&lt;/a&gt;&lt;/p&gt;— &lt;br /&gt;Tom Schindl (@tomsontom) &lt;a href=&quot;http://twitter.com/#!/tomsontom/status/1054854038456598530&quot;&gt;October 23, 2018&lt;/a&gt;&lt;/blockquote&gt; about it and Tom Watson (one of the maintainers of Equinox) pointed me into the right direction.&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;So the solution is&lt;/p&gt;
+
+&lt;p&gt;and now I have to think how we expose that to in our OSGi-Integration.&lt;/p&gt;</description>
+	<pubDate>Wed, 24 Oct 2018 08:49:56 +0000</pubDate>
+</item>
+<item>
+	<title>Tanja Obradovic: Announcing Eclipse GlassFish 5.1.0-RC1 release</title>
+	<guid isPermaLink="false">https://blogs.eclipse.org/6653 at https://blogs.eclipse.org</guid>
+	<link>https://blogs.eclipse.org/post/tanja-obradovic/announcing-eclipse-glassfish-510-rc1-release</link>
+	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p dir=&quot;ltr&quot;&gt;I am very excited to say that Eclipse GlassFish 5.1-RC1 is now released! The version we are working on, Eclipse GlassFish 5.1.0, will be Java EE 8 certified once it is fully released, however, the RC1 gives the community an opportunity to test the code and provide their feedback. We are making available nightly builds as well.&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;Huge progress has been made in the Jakarta EE world over the last couple of months. A big thank you to everyone involved!&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;Let’s recap all the successes and take a moment to celebrate our little victories!&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li dir=&quot;ltr&quot;&gt;
+	&lt;p dir=&quot;ltr&quot;&gt;GlassFish and Oracle Java EE API contributions to Jakarta EE are now complete.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li dir=&quot;ltr&quot;&gt;
+	&lt;p dir=&quot;ltr&quot;&gt;Java EE TCKs are open sourced and hosted at the Eclipse Foundation.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li dir=&quot;ltr&quot;&gt;
+	&lt;p dir=&quot;ltr&quot;&gt;Nightly builds for Eclipse GlassFish are available on the Foundation’s Jenkins-based Common Build Infrastructure &lt;a href=&quot;https://jenkins.eclipse.org/glassfish/job/glassfish-nightly-freestyle/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li dir=&quot;ltr&quot;&gt;
+	&lt;p dir=&quot;ltr&quot;&gt;The work on ensuring that Eclipse GlassFish is Java EE 8 compatible and can be branded as Java EE 8 compatible is well on its way.&lt;/p&gt;
+
+	&lt;ul&gt;
+		&lt;li dir=&quot;ltr&quot;&gt;
+		&lt;p dir=&quot;ltr&quot;&gt;A test infrastructure at the Eclipse Foundation is now ready for testing Eclipse GlassFish against the Java EE 8 TCKs.&lt;/p&gt;
+		&lt;/li&gt;
+		&lt;li dir=&quot;ltr&quot;&gt;
+		&lt;p dir=&quot;ltr&quot;&gt;The Eclipse Foundation has signed the Oracle Java EE TCK agreement, which will allow us to proceed with the testing.&lt;/p&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;We expect that Eclipse GlassFish sources will become the basis for an implementation of the Jakarta EE specifications.&lt;/p&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;To find out more about the Eclipse GlassFish 5.1-RC1 please refer to this&lt;a href=&quot;https://dmitrykornilov.net/2018/10/22/first-year-of-eclipse-ee4j/&quot;&gt; great blog&lt;/a&gt; from Dmitry Kornilov. Once again a big shout out to all the project teams working so hard to meet the target milestones. Please join me in celebrating another Jakarta EE milestone and spread the good news!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Wed, 24 Oct 2018 08:49:20 +0000</pubDate>
+</item>
+<item>
+	<title>Wayne Beaton: Eclipse IP Process: Service Releases of Third Party Content</title>
+	<guid isPermaLink="false">http://waynebeaton.wordpress.com/?p=5450</guid>
+	<link>https://waynebeaton.wordpress.com/2018/10/23/eclipse-ip-process-service-releases-of-third-party-content/</link>
+	<description>&lt;p&gt;The primary role of the Eclipse IP Team is to reduce the risks associated with adopting open source software. In broad terms, they ensure that the licenses on content are compatible, that provenance is clear, and that content otherwise unencumbered from a legal point-of-view (strictly speaking, the team does all of this only for &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#ip-third-party-prereq-types&quot;&gt;Type B&lt;/a&gt; requests). In other words, they do the sorts of things that every software project really needs to do (especially those projects that care about wide scale adoption), but software developers hate doing.&lt;/p&gt;
+&lt;p&gt;It’s impossible to remove all risk. The &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#ip&quot;&gt;IP Due Diligence process&lt;/a&gt; is all about risk mitigation.&lt;/p&gt;
+&lt;p&gt;Project committers do play an important role in this work. The Eclipse IP Team does the heavy investigative work, but it is the committers who must bring intellectual property matters to the IP Team for their review. This takes the form of creating a contribution questionnaire (CQ) and then providing assistance where necessary to our analyst to investigate, and identify and resolve issues.&lt;/p&gt;
+&lt;p&gt;Experience has demonstrated that service releases of third party content are very low risk. By their nature, service releases include bug fixes only, and so don’t tend to include a lot of new intellectual property. Our experience is that bug fix releases generally change or add a few lines of code here and there.&lt;/p&gt;
+&lt;p&gt;Based on this experience, the Eclipse IP Due Diligence Process gives service releases of third party content a pass: project committers do not need to create a CQ or otherwise engage with the Eclipse IP Due Diligence Process for any service release of third party content that has already been approved.&lt;/p&gt;
+&lt;p&gt;That is, if a version of some bit of third party content has been approved by the IP Team, then service releases based on that approved version do not require any review. Just drop ’em into your build and have at it (e.g. if version 3.2 has been approved for use, a project can just use version 3.2.n without formal review).&lt;/p&gt;
+&lt;p&gt;Of course, if you suspect shenanigans or otherwise lack confidence in the status of the content, you can bring the service release to the IP Team in the usual manner. In fact, if you do suspect that maybe something labeled as a service release isn’t actually service release, please do engage the IP Team.&lt;/p&gt;
+&lt;p&gt;This and many other topics are covered by the &lt;a href=&quot;https://www.eclipse.org/projects/handbook/#ip-third-party-versions&quot;&gt;Eclipse Project Handbook&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I’m at EclipseCon Europe. If I’m not in a session, I’ll be in the registration area. Ask me questions!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.eclipsecon.org&quot;&gt;&lt;img alt=&quot;ece_2018_logo&quot; class=&quot;alignnone size-full wp-image-5451 aligncenter&quot; src=&quot;https://waynebeaton.files.wordpress.com/2018/10/ece_2018_logo.png?w=640&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+	<pubDate>Tue, 23 Oct 2018 07:49:25 +0000</pubDate>
+</item>
+<item>
+	<title>itemis: Eclipse GEF DOT – Graphical Views on Xtext DSLs</title>
+	<guid isPermaLink="true">https://blogs.itemis.com/en/eclipse-gef-dot-graphical-views-on-xtext-dsls</guid>
+	<link>https://blogs.itemis.com/en/eclipse-gef-dot-graphical-views-on-xtext-dsls</link>
+	<description>The 
+&lt;a href=&quot;https://hosting.itemis.de/en/adding-gef-dot-based-visualization-support-to-the-eclipse-ide&quot;&gt;previous blog post&lt;/a&gt; introduced complex 
+&lt;a href=&quot;https://graphviz.gitlab.io/_pages/doc/info/lang.html&quot;&gt;Graphviz *.dot&lt;/a&gt; graphs to add Eclipse GEF DOT-based visualization support to the Eclipse IDE. This blog post demonstrates the usage of the GEF DOT Graph View to add graphical representations to Xtext DSLs.
+&lt;br /&gt;
+&lt;br /&gt;The following examples are shipped with the Xtext framework and are available from the Xtext Example Wizard. They are extended by Model-to-Text transformations to generate intermediate Graphviz *.dot files as inputs for the GEF DOT Graph View.
+&lt;br /&gt; 
+&lt;h2&gt;Visualizing the Xtext Domain-Model Example&lt;/h2&gt; The Xtext Domain-Model Example describes a language that allows the specification of entities with their properties/operations and their relations to each other. 
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img alt=&quot;1_DomainModelExample_class_diagram&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/1_DomainModelExample_class_diagram.jpg?t=1540276010935&amp;amp;width=724&amp;amp;name=1_DomainModelExample_class_diagram.jpg&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;The 
+&lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/gef_graphical_views_on_xtext_dsls/DomainModelExample/org.eclipse.xtext.example.domainmodel.tests/src/org/eclipse/xtext/example/domainmodel/tests/DomainmodelDotGeneratorTest.xtend&quot;&gt;DomainmodelDotGeneratorTest&lt;/a&gt; test suite specifies how the different Entity DSLs should be translated to Graphviz DOT files.
+&lt;br /&gt;
+&lt;br /&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;@RunWith(XtextRunner)
+@InjectWith(DomainmodelInjectorProvider)
+class DomainmodelDotGeneratorTest {
+
+	...
+
+	@Test def test13() {
+		'''
+			import java.util.List
+
+			entity Blog {
+				title: String
+				posts: List&amp;lt;Post&amp;gt;
+
+				op addPost(Post post) : void { }
+				op getPosts() : List&amp;lt;Post&amp;gt; {}
+			}
+
+			entity HasAuthor {
+				author: String
+
+				op getAuthor() { author }
+				op setAuthor() : void {}
+			}
+
+			entity Post extends HasAuthor {
+				title: String
+				content: String
+				comments: List&amp;lt;Comment&amp;gt;
+			}
+
+			entity Comment extends HasAuthor {
+				content: String
+			}
+		'''.assertCompilesTo('''
+			digraph {
+				// layout=sfdp
+
+				nodesep=1.2
+				rankdir=BT
+
+				node [shape=record style=&quot;filled, bold&quot; color=&quot;#CE970D&quot; fillcolor=&quot;#FAEAC1&quot; fontcolor=&quot;#CE970D&quot;]
+
+				// nodes
+				Blog [
+					label = &quot;{
+						Blog|
+						title : String\l|
+						addPost(Post post) : void\lgetPosts() : List\&amp;lt;Post\&amp;gt;\l
+					}&quot;
+				]
+				HasAuthor [
+					label = &quot;{
+						HasAuthor|
+						author : String\l|
+						getAuthor() : String\lsetAuthor() : void\l
+					}&quot;
+				]
+				Post [
+					label = &quot;{
+						Post|
+						title : String\lcontent : String\l|
+					}&quot;
+				]
+				Comment [
+					label = &quot;{
+						Comment|
+						content : String\l|
+					}&quot;
+				]
+
+				// inheritance edges
+				edge[arrowhead=onormal color=&quot;#CE970D&quot; fontcolor=&quot;#CE970D&quot;]
+				Post -&amp;gt; HasAuthor
+				Comment -&amp;gt; HasAuthor
+
+				// association edges
+				edge[arrowhead=normal arrowtail=diamond dir=both constraint=false]
+				Blog -&amp;gt; Post [headlabel=&quot;posts\n[0..*]&quot;]
+				Post -&amp;gt; Comment [headlabel=&quot;comments\n[0..*]&quot;]
+			}
+		''')
+	}
+
+	...
+
+}
+&lt;/pre&gt; 
+&lt;br /&gt;The implementation of the 
+&lt;a href=&quot;https://github.com/itemis/itemis-blog/blob/gef_graphical_views_on_xtext_dsls/DomainModelExample/org.eclipse.xtext.example.domainmodel/src/org/eclipse/xtext/example/domainmodel/generator/DomainmodelDotGenerator.xtend&quot;&gt;DomainmodelDotGenerator&lt;/a&gt; shows that each entity is translated into a DOT node, the entity's properties/operations are coded into the DOT node's record-based label, while the inheritance/association relationships are converted to DOT edges with corresponding arrowhead/arrowtail symbols.
+&lt;br /&gt;
+&lt;br /&gt; 
+&lt;pre class=&quot;prettyprint&quot;&gt;class DomainmodelDotGenerator extends JvmModelGenerator {
+
+	...
+
+	override void doGenerate(Resource input, IFileSystemAccess fsa) {
+		fsa.generateFile(input.fileName, (input.contents.head as DomainModel).toDot)
+	}
+
+	def toDot(DomainModel it) '''
+		digraph {
+			// layout=sfdp
+
+			nodesep=1.2
+			rankdir=BT
+
+			«generateEntities»
+
+			«generateInheritanceConnections»
+
+			«generateAssociationConnections»
+		}
+	'''
+
+	private def generateEntities(DomainModel it) '''
+		node [shape=record style=&quot;filled, bold&quot; color=&quot;#CE970D&quot; fillcolor=&quot;#FAEAC1&quot; fontcolor=&quot;#CE970D&quot;]
+
+		// nodes
+		«FOR entity : entities»
+			«entity.generate»
+		«ENDFOR»
+	'''
+
+	private def generate(Entity it) '''
+		«name» [
+			label = &quot;{
+				«name»|
+				«generateProperties»|
+				«generateOperations»
+			}&quot;
+		]
+	'''
+
+	...
+
+	private def generateInheritanceConnections(DomainModel it) '''
+		// inheritance edges
+		edge[arrowhead=onormal color=&quot;#CE970D&quot; fontcolor=&quot;#CE970D&quot;]
+		«FOR entity : entities»
+			«IF entity.superType!==null»
+				«entity.name» -&amp;gt; «entity.superType.simpleName»
+			«ENDIF»
+		«ENDFOR»
+	'''
+
+	private def generateAssociationConnections(DomainModel it) '''
+		// association edges
+		edge[arrowhead=normal arrowtail=diamond dir=both constraint=false]
+		«FOR entity : entities»
+			«FOR property : entity.associationProperties»
+				«entity.name» -&amp;gt; «property.type.determineType.simpleName» [headlabel=&quot;«property.associationLabel»&quot;]
+			«ENDFOR»
+		«ENDFOR»
+	'''
+
+	...
+
+}&lt;/pre&gt; 
+&lt;br /&gt;
+&lt;br /&gt;As soon as the Xtext project is extended by the GEF DOT-based visualization support, the Show In -&amp;gt; DOT Graphcontext menu of the Xtext Editor opens the graphical representation of the Xtext DSL.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img alt=&quot;2_DomainModelExample_visualization&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/2_DomainModelExample_visualization.png?t=1540276010935&amp;amp;width=724&amp;amp;name=2_DomainModelExample_visualization.png&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;
+&lt;br /&gt; 
+&lt;h2&gt;&lt;br /&gt;Visualizing the Xtext Home Automation Example&lt;/h2&gt; The Xtext Home Automation Example describes a language for home automation systems that allows the specification of devices with their states and rules to describe the effects of the events on the devices' states. 
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img alt=&quot;3_HomeAutomationExample_class_diagram&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/3_HomeAutomationExample_class_diagram.jpg?t=1540276010935&amp;amp;width=724&amp;amp;name=3_HomeAutomationExample_class_diagram.jpg&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;Rules firing the same device state may lead to endless recursion. Such warnings are presented on the textual editor and also on the graphical view. 
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img alt=&quot;4_HomeAutomationExample_visualization&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/4_HomeAutomationExample_visualization.jpg?t=1540276010935&amp;amp;width=724&amp;amp;name=4_HomeAutomationExample_visualization.jpg&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;
+&lt;br /&gt; 
+&lt;h2&gt;&lt;br /&gt;Visualizing the Xtext Simple Arithmetics Example&lt;/h2&gt; The Xtext Simple Arithmetics Example describes a language for simple arithmetics calculation such as addition, substraction, multiplication and division. The operands of an expression can either be a simple number, a function call or even a complex expression. 
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img alt=&quot;5_SimpleArithmeticsExample_class_diagram&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/5_SimpleArithmeticsExample_class_diagram.jpg?t=1540276010935&amp;amp;width=724&amp;amp;name=5_SimpleArithmeticsExample_class_diagram.jpg&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;The graphical view on an expression shows not only the operators with their operands, but also the values of each sub-expressions. 
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img alt=&quot;6_SimpleArithmeticsExample_visualization&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/6_SimpleArithmeticsExample_visualization.jpg?t=1540276010935&amp;amp;width=936&amp;amp;name=6_SimpleArithmeticsExample_visualization.jpg&quot; style=&quot;width: 936px;&quot; width=&quot;936&quot; /&gt;
+&lt;br /&gt; 
+&lt;h2&gt;&lt;br /&gt;Visualizing the Xtext State-Machine Example&lt;/h2&gt; 
+&lt;p&gt;The Xtext State-Machine Example describes a languages for State-Machine definitions. A state machine consists of certain commands, events, states and transitions. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;  
+&lt;p&gt;&lt;img alt=&quot;7_StateMachineExample_class_diagram&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/7_StateMachineExample_class_diagram.jpg?t=1540276010935&amp;amp;width=2911&amp;amp;name=7_StateMachineExample_class_diagram.jpg&quot; style=&quot;width: 2911px;&quot; width=&quot;2911&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;On the graphical view, the states are presented by nodes, the transitions by edges. The commands are attached to the corresponding nodes, while the events are described on the corresponding edge label. &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;img alt=&quot;8_StateMachineExample_visualization&quot; src=&quot;https://blogs.itemis.com/hs-fs/hubfs/Blog/Xtext/8_StateMachineExample_visualization.jpg?t=1540276010935&amp;amp;width=724&amp;amp;name=8_StateMachineExample_visualization.jpg&quot; style=&quot;width: 724px;&quot; width=&quot;724&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;All these examples are available on the corresponding &lt;a href=&quot;https://github.com/itemis/itemis-blog/tree/gef_graphical_views_on_xtext_dsls&quot;&gt;GitHub repository&lt;/a&gt;. For further information, watch the &lt;a href=&quot;https://www.eclipsecon.org/europe2018/sessions/eclipse-gef-dot-graphviz-authoring-environment-eclipse&quot;&gt;recorded GEF DOT session on the EclipseCon Europe 2018&lt;/a&gt;, study the &lt;a href=&quot;https://github.com/eclipse/gef/wiki/DOT-User-Guide&quot;&gt;GEF DOT User Guide&lt;/a&gt; and take a look at the Getting started with GEF 5.0 Online Tutorial.&lt;/p&gt; 
+&lt;p&gt;&lt;a class=&quot;cta_button&quot; href=&quot;https://info.itemis.com/cs/ci/?pg=03e89a61-aaf0-43d0-8890-cc79be189a85&amp;amp;pid=761475&amp;amp;ecid=&amp;amp;hseid=&amp;amp;hsic=&quot;&gt;&lt;img align=&quot;middle&quot; alt=&quot;Register for the GEF Tutorials&quot; class=&quot;hs-cta-img &quot; src=&quot;https://no-cache.hubspot.com/cta/default/761475/03e89a61-aaf0-43d0-8890-cc79be189a85.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;  
+&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;https://track.hubspot.com/__ptq.gif?a=761475&amp;amp;k=14&amp;amp;r=https%3A%2F%2Fblogs.itemis.com%2Fen%2Feclipse-gef-dot-graphical-views-on-xtext-dsls&amp;amp;bu=https%253A%252F%252Fblogs.itemis.com&amp;amp;bvt=rss&quot; style=&quot;width: 1px!important;&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 22 Oct 2018 14:15:00 +0000</pubDate>
+	<author>miklossy@itemis.de (Tamas Miklossy)</author>
+</item>
+<item>
 	<title>EclipseCon Europe 2018: Download the Conference App!</title>
 	<guid isPermaLink="false">https://www.eclipsecon.org/news/749 at https://www.eclipsecon.org</guid>
 	<link>https://www.eclipsecon.org/europe2018/news/download-conference-app</link>
@@ -215,7 +513,7 @@ We abuse this mechanism a bit to solve our dangling reference problem: Before me
 <item>
 	<title>Mike Milinkovich: Introducing the Jakarta EE Specification Process</title>
 	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1466</guid>
-	<link>https://mmilinkov.wordpress.com/2018/10/16/jakarta-spec-process/</link>
+	<link>https://eclipse-foundation.blog/2018/10/16/jakarta-spec-process/</link>
 	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;I am very happy to announce that we are publishing a draft of the &lt;/span&gt;&lt;a href=&quot;https://docs.google.com/document/d/1ongNUyGvZPtrcuxA7RQNV2qBESFcAphQbzdk3pUIQ5s/edit&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Eclipse Foundation Specification Process&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; for community review and feedback. This specification process will be used by Jakarta EE as the new open specification process, replacing the JCP process previously used for Java EE. It is also expected that this new process will be of interest to other Eclipse working groups. &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We are really looking forward to your feedback, which you can do via the Jakarta EE Community &lt;/span&gt;&lt;a href=&quot;https://accounts.eclipse.org/mailing-list/jakarta.ee-community&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;mailing list&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; (preferred), or on the &lt;/span&gt;&lt;a href=&quot;https://docs.google.com/document/d/1ongNUyGvZPtrcuxA7RQNV2qBESFcAphQbzdk3pUIQ5s/edit&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;document comments&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.  The feedback provided will be used as input to finalizing a first version of the specification process and its adoption by Jakarta EE and other working groups at the Eclipse Foundation.  &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;As you are reviewing this draft specification process, please keep in mind the following key points about the approach that was taken by the Specification Committee. &lt;/span&gt;&lt;/p&gt;
@@ -1292,49 +1590,6 @@ The Eclipse Ditto team&lt;/p&gt;</description>
 &lt;p&gt;Happy coding and see you soon on our user or dev &lt;a href=&quot;https://vertx.io/community&quot;&gt;channels&lt;/a&gt;.&lt;/p&gt;
 &lt;/article&gt;</description>
 	<pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>EclipseCon Europe 2018: Thorntail - A Micro implementation of Eclipse MicroProfile</title>
-	<guid isPermaLink="false">https://www.eclipsecon.org/news/743 at https://www.eclipsecon.org</guid>
-	<link>https://www.eclipsecon.org/europe2018/news/thorntail-micro-implementation-eclipse-microprofile</link>
-	<description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;h4&gt;by Ken Finnigan&lt;/h4&gt;
-
-&lt;p&gt;In this article we introduce some of the topics Michal Szynkiewicz, from the Thorntail team, will be presenting during his EclipseCon session &lt;a href=&quot;https://www.eclipsecon.org/europe2018/sessions/invited-talk-thorntail-micro-implementation-eclipse-microprofile&quot;&gt;Thorntail - A Micro Implementation of Eclipse MicroProfile&lt;/a&gt;. Be sure to come by his session to learn all the details on Eclipse MicroProfile and how to use it in Thorntail!&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-news-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;https://www.eclipsecon.org/europe2018/news/thorntail-micro-implementation-eclipse-microprofile&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;img-responsive block-center&quot; height=&quot;250&quot; src=&quot;https://www.eclipsecon.org/sites/default/files/styles/solstice_news_-_default_-_thumbnail/public/news/Thorntail%20logo.png?itok=hq_61S5i&quot; width=&quot;250&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-	<pubDate>Tue, 02 Oct 2018 14:38:56 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Case Study: How Bosch Is Succeeding with Open Source at Eclipse IoT</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/RS679nuKZkQ/</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/RS679nuKZkQ/</link>
-	<description>How is it that a 150-year-old, 400,000 employee industrial conglomerate is competing and winning in the rapidly involving IoT software industry?&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/RS679nuKZkQ&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Tue, 02 Oct 2018 14:00:00 +0000</pubDate>
-</item>
-<item>
-	<title>Mike Milinkovich: Case Study: How Bosch Is Succeeding with Open Source at Eclipse IoT</title>
-	<guid isPermaLink="false">http://mmilinkov.wordpress.com/?p=1464</guid>
-	<link>https://mmilinkov.wordpress.com/2018/10/02/how-bosch-is-succeeding-with-open-source/</link>
-	<description>&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;How is it that a 150-year-old, 400,000 employee industrial conglomerate is competing and winning in the rapidly involving IoT software industry? We’ve just published a &lt;a href=&quot;https://iot.eclipse.org/case-studies/bosch-leadership-in-eclipse-iot/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;case study&lt;/a&gt; in which &lt;a href=&quot;https://www.bosch.com/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Bosch&lt;/a&gt; shares how open collaboration at the Eclipse Foundation factors into that success. This case study is required reading for any organization considering pursuing an open source strategy. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;This case study is yet another proof point that open source has won. No single company can deliver innovation at the pace and scale of open source. For industrial companies in particular, broadly adopted open technologies and standards are critical for success in the digital economy. It’s a case of disrupt or be disrupted — and open source holds the key for rapid and sustainable innovation in the digital age. The team at Bosch recognized all of this several years ago. When the time came for creating an IoT platform for themselves and their customers, Bosch chose open source to compete with proprietary vendors. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;At the Eclipse Foundation, Bosch is successfully executing a long-term strategy to create a widely adopted open source platform for IoT. Having previously been a long-term Solutions member of the Eclipse Foundation, Bosch increased its membership level in the Eclipse Foundation to become a Strategic member and joined the Eclipse IoT Working Group in 2015. Beyond IoT, Bosch is an active participant in the Eclipse Foundation’s Automotive Industry community.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Some of the highlights from the case study (&lt;a href=&quot;https://iot.eclipse.org/case-studies/bosch-leadership-in-eclipse-iot/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;html&lt;/a&gt;) (&lt;a href=&quot;https://iot.eclipse.org/resources/case-studies/Eclipse%20IoT%20Success%20Story%20-%20Bosch.pdf&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;pdf&lt;/a&gt;):&lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Bosch’s leadership in the Eclipse IoT community has helped position the company as a leader in the IoT industry.&lt;/span&gt;&lt;/b&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Bosch has created six different IoT open source projects since joining the Eclipse IoT community. In addition, Bosch contributes to many other Eclipse IoT projects.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Bosch has contributed around 1.5 million lines of code to Eclipse projects. At present, over 60 Bosch developers work on Eclipse IoT projects.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Many of the &lt;a href=&quot;https://www.bosch-si.com/corporate/home/homepage.html&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Bosch IoT Suite&lt;/a&gt; commercial products are now based on Eclipse IoT projects. The open development process used by the Eclipse projects has been adopted by Bosch Software Innovations’ product development teams. The open source development model helps Bosch provide more transparency for their customers, and aids in recruiting new developers keen to work on open source.&lt;/span&gt;&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Eclipse Foundation’s clear, vendor-neutral rules for intellectual property sharing and decision-making make it easy to collaborate with other organizations on driving rapid innovation. The Foundation’s legal processes provide Bosch with the legal assurance that they can successfully embed open source technology into their commercial products.&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;We are thrilled that Bosch is seeing the benefits of their open source strategy and participation in the Eclipse community. Thanks to the contributions of Bosch engineers and many other developers within the Eclipse community, all can benefit from runtimes and frameworks creating a open, vendor-neutral platform for IoT. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;To learn more about the Eclipse IoT community, head over to the &lt;/span&gt;&lt;a href=&quot;https://iot.eclipse.org/working-group/&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Eclipse IoT Working Group website&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;</description>
-	<pubDate>Tue, 02 Oct 2018 12:04:01 +0000</pubDate>
-</item>
-<item>
-	<title>Eclipse Announcements: Eclipse CBI - Common Build Infrastructure changes</title>
-	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/xnwBaw3lZDg/eclipse-cbi-common-build-infrastructure-changes</guid>
-	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/xnwBaw3lZDg/eclipse-cbi-common-build-infrastructure-changes</link>
-	<description>The Eclipse CBI, which traces its roots back to 2006, has undergone some important changes recently, including a new Kubernetes+Docker-powered environment at https://jenkins.eclipse.org that re announced previously.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/xnwBaw3lZDg&quot; width=&quot;1&quot; /&gt;</description>
-	<pubDate>Fri, 28 Sep 2018 20:00:00 +0000</pubDate>
 </item>
 
 </channel>

@@ -1,7 +1,0 @@
-package java_io;
-
-public class copyFile {
-	public static void main(String[] args) {
-		
-	}
-}

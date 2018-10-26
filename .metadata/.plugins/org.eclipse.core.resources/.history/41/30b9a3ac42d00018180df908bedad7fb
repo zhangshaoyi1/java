@@ -1,9 +1,0 @@
-package splider.interfaces;
-/**
- * 
- * @author ZSY
- *
- */
-public interface iChapterSpider {
-
-}
