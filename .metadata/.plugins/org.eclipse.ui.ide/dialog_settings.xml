@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="F:\JAVA300集2018版(2.28修订,5.28日修订完毕)\08_IO流技术\资料\003_code"/>
+		<item value="F:\小说爬虫\第五课代码\novel.spider"/>
 		<item value="E:\src\test"/>
 		<item value="E:\src\test1"/>
 		<item value="E:\src\mytest"/>

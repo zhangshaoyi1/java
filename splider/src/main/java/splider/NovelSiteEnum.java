@@ -7,7 +7,9 @@ package splider;
  */
 public enum NovelSiteEnum {
 	DingDianXiaoShuo(1, "23wx.com"),
-	BiQuGe(2, "biquge.tw");
+	BiQuGe(2, "biquge.tw"),
+	KanShuZhong(3, "kanshuzhong.com"),
+	Bxwx(4, "bxwx8.org");
 	private int id;
 	private String url;
 	private NovelSiteEnum(int id, String url) {
@@ -30,6 +32,8 @@ public enum NovelSiteEnum {
 		switch (id) {
 		case 1 : return DingDianXiaoShuo;
 		case 2 : return BiQuGe;
+		case 3 : return KanShuZhong;
+		case 4 : return Bxwx;
 		default : throw new RuntimeException("id=" + id + "是不被支持的小说网站");
 		}
 	}

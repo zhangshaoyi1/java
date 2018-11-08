@@ -1,7 +1,0 @@
-package splider.interfaces;
-
-import splider.entitys.ChapterDetail;
-
-public interface IChapterDetailSpider {
-	public ChapterDetail getChapterDetail(String url);
-}

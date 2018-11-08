@@ -5,6 +5,10 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
+import org.jsoup.Jsoup;
+
+import splider.NovelSiteEnum;
+import splider.util.NovelSpiderUtil;
 
 public abstract class AbstractSpider {
 	/**
@@ -16,7 +20,7 @@ public abstract class AbstractSpider {
 	protected String crawl(String url) throws Exception {
 		try (CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 			 CloseableHttpResponse httpResponse = httpClient.execute(new HttpGet(url))) {
-			String result = EntityUtils.toString(httpResponse.getEntity(),"utf-8");
+			String result = EntityUtils.toString(httpResponse.getEntity(), NovelSpiderUtil.getContext(NovelSiteEnum.getEnumByUrl(url)).get("charset"));
 			return result;
 		} catch (Exception e) {
 			throw new RuntimeException(e);

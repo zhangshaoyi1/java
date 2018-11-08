@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.thinkgem.jeesite.common.beanvalidator.BeanValidators"/>
-<fullyQualifiedTypeName name="com.google.common.collect.Lists"/>
 <fullyQualifiedTypeName name="com.thinkgem.jeesite.common.utils.excel.ExportExcel"/>
 <fullyQualifiedTypeName name="com.thinkgem.jeesite.common.utils.excel.annotation.ExcelField"/>
 <fullyQualifiedTypeName name="com.thinkgem.jeesite.test.service.TestInstituteService"/>
@@ -35,10 +33,8 @@
 <fullyQualifiedTypeName name="com.thinkgem.jeesite.modules.sys.entity.User"/>
 <fullyQualifiedTypeName name="com.thinkgem.jeesite.modules.sys.entity.Office"/>
 <fullyQualifiedTypeName name="com.thinkgem.jeesite.modules.sys.dao.OfficeDao"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="splider.interfaces.IChapterSpider"/>
 <fullyQualifiedTypeName name="splider.impl.DefaultChapterSpider"/>
-<fullyQualifiedTypeName name="splider.entitys.Chapter"/>
 <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="java.io.OutputStream"/>
@@ -53,11 +49,15 @@
 <fullyQualifiedTypeName name="org.jsoup.helper.StringUtil"/>
 <fullyQualifiedTypeName name="org.apache.commons.lang.StringUtils"/>
 <fullyQualifiedTypeName name="splider.entitys.ChapterDetail"/>
-<fullyQualifiedTypeName name="org.jsoup.Jsoup"/>
-<fullyQualifiedTypeName name="splider.NovelSiteEnum"/>
 <fullyQualifiedTypeName name="org.jsoup.nodes.Document"/>
-<fullyQualifiedTypeName name="splider.util.NovelSpiderUtil"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="splider.impl.DefaultChapterDetailSpider"/>
 <fullyQualifiedTypeName name="splider.interfaces.IChapterDetailSpider"/>
+<fullyQualifiedTypeName name="splider.interfaces.INovelDownload"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="splider.entitys.Chapter"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="splider.util.NovelSpiderUtil"/>
+<fullyQualifiedTypeName name="splider.NovelSiteEnum"/>
+<fullyQualifiedTypeName name="org.jsoup.Jsoup"/>
 </qualifiedTypeNameHistroy>
